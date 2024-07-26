@@ -46,7 +46,7 @@ const Signup = () => {
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="bg-grey-dark  min-h-screen flex flex-col">
-                <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+                <div className="container max-w-lg mx-auto flex-1 flex flex-col items-center justify-center px-2">
                     <div className="bg-teal-900 rounded-2xl px-6 py-8 my-8 shadow-md text-black w-full">
                         <h1 className="mb-8 text-3xl text-white text-center">Create an Account</h1>
                         <input
