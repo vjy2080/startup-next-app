@@ -1,0 +1,22 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #666;
+    }
+    .feature {
+      margin-bottom: 20px;
+    }
+    .feature h2 {
+      color: #0070f3;
+      font-size: 1.5rem;
+    }
+    .feature p {
+      margin-top: 10px;
+    }
