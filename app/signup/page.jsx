@@ -1,6 +1,5 @@
 'use client'
-
-
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 
 const Signup = () => {
@@ -8,33 +7,41 @@ const Signup = () => {
         register,
         handleSubmit,
         watch,
-        formState: { errors }
+        formState: { errors },
+        reset,
+        setError
     } = useForm();
-
+    const { push } = useRouter();
     const onSubmit = async (data) => {
-
-
         try {
-            const response = await fetch('http://localhost:5000/users', {
+            let response = await fetch('http://localhost:5000/users');
+            let users = await response.json();
+            const isAlreadyUser = users.some(item => item.email === data.email);
+
+            if (isAlreadyUser) {
+                setError('isAlreadyUser', { type: "custom", message: 'User already exists!' });
+                return;
+            }
+            const postResponse = await fetch('http://localhost:5000/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(data),
             });
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
+            if (!postResponse.ok) {
+                throw new Error(`HTTP error! Status: ${postResponse.status}`);
             }
+            const userData = await postResponse.json();
+            reset();
+            setError('userAdded', { type: "custom", message: `Hello ${userData.name},Your account created successfully.` });
 
-            const userData = await response.json();
             console.log('User added:', userData);
-
         } catch (error) {
-            console.error('Error adding user:', error);
+            console.error('Error:', error);
         }
-
     };
+
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -101,15 +108,19 @@ const Signup = () => {
 
                         <button
                             type="submit"
-                            className="w-full mt-4 text-center text-xl py-3 rounded bg-yellow-600 text-blue-800 hover:bg-green-dark focus:outline-none my-1"
+                            className="w-full mt-4 text-center text-xl py-3 rounded bg-yellow-300 text-teal-900 hover:bg-green-dark focus:outline-none my-1"
                         >Create Account</button>
-                    </div>
+                        {errors.isAlreadyUser && <div className="text-center mt-2"><span className="text-red-500 ">{errors.isAlreadyUser.message}</span></div>}
+                        {errors.userAdded && <div className="text-center mt-2"><span className="text-red-500 ">{errors.userAdded.message}</span></div>}
+                        <div className="text-white text-center mt-6">
+                            <span> Already have an account?</span>
+                            <button
+                                onClick={() => { push('/login') }}
+                                className="w-full mt-4 text-center text-xl py-3 rounded bg-green-600 text-yellow-50 hover:bg-green-dark focus:outline-none my-1"
+                            >Login</button>
+                        </div>
 
-                    <div className="text-grey-dark mt-6">
-                        Already have an account?
-                        <a className="no-underline border-b border-blue text-blue" href="../login/">
-                            Log in
-                        </a>.
+
                     </div>
                 </div>
             </div>

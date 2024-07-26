@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import HomeData from '../components/HomeData';
 import CardModal from '../components/CardModal';

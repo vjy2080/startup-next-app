@@ -1,6 +1,16 @@
-import React from 'react';
+'use client'
+import { useRouter } from 'next/navigation';
+import React, { useEffect } from 'react';
 
 const About = () => {
+    const { push } = useRouter();
+
+    useEffect(() => {
+        const login = localStorage.getItem("login");
+        if (!login) {
+            push('/login');
+        }
+    }, [push]);
     return (
         <div className="bg-gray-100 min-h-screen py-6 px-4 sm:px-6 lg:px-8">
             <header className="max-w-4xl mx-auto mb-8">

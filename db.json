@@ -3,9 +3,58 @@
     {
       "id": "e374",
       "name": "example",
-      "email": "exampkle@abc.com",
+      "email": "example@abc.com",
       "password": "1234asdf",
       "confirmPassword": "1234asdf"
+    },
+    {
+      "id": "94cb",
+      "name": "vijay",
+      "email": "vjy@abc.com",
+      "password": "1234asdf",
+      "confirmPassword": "1234asdf"
+    },
+    {
+      "id": "89b7",
+      "name": "vijay",
+      "email": "bfc@asd.com",
+      "password": "asdf1234",
+      "confirmPassword": "asdf1234"
+    },
+    {
+      "id": "baf9",
+      "name": "dfjsdfh",
+      "email": "skjdf@kdjf.com",
+      "password": "asdf1234",
+      "confirmPassword": "asdf1234"
+    },
+    {
+      "id": "10be",
+      "name": "qwerty",
+      "email": "qwe@rty.com",
+      "password": "qwerty123",
+      "confirmPassword": "qwerty123"
+    },
+    {
+      "id": "e2e4",
+      "name": "vijay",
+      "email": "asd@1234.com",
+      "password": "qwe123",
+      "confirmPassword": "qwe123"
+    },
+    {
+      "id": "1481",
+      "name": "sandip",
+      "email": "san@oza.com",
+      "password": "san123",
+      "confirmPassword": "san123"
+    },
+    {
+      "id": "51c0",
+      "name": "vijay",
+      "email": "vjy@qwe.com",
+      "password": "qwer123",
+      "confirmPassword": "qwer123"
     }
   ]
 }

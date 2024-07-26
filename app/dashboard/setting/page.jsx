@@ -1,11 +1,20 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import * as ContextMenu from '@radix-ui/react-context-menu';
 import { DotFilledIcon, CheckIcon, ChevronRightIcon } from '@radix-ui/react-icons';
 import './styles.css';
+import { useRouter } from 'next/navigation';
 
 const Setting = () => {
+    const { push } = useRouter();
+
+    useEffect(() => {
+        const login = localStorage.getItem("login");
+        if (!login) {
+            push('/login');
+        }
+    }, [push]);
     const [bookmarksChecked, setBookmarksChecked] = useState(true);
     const [urlsChecked, setUrlsChecked] = useState(false);
     const [person, setPerson] = useState('pedro');
