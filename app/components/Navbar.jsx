@@ -5,6 +5,8 @@ import React, { useEffect, useState } from 'react';
 import DropdownMenuComponent from './DropdownMenuComponent/page';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
+import Logo from './Logo';
+
 
 const Navbar = () => {
     const { isAuthenticated, logout } = useAuth();
@@ -19,8 +21,10 @@ const Navbar = () => {
         <nav className="sticky top-0 bg-teal-900 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="cursor-pointer flex items-center space-x-3 rtl:space-x-reverse">
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-cyan-200">NextJS</span>
+                    <Logo />
+                    {/* <span className="self-center text-2xl font-semibold whitespace-nowrap text-cyan-200">NextJS</span> */}
                 </Link>
+
                 <button
                     data-collapse-toggle="navbar-dropdown"
                     type="button"
@@ -51,16 +55,16 @@ const Navbar = () => {
                             <DropdownMenuComponent />
                         </li>
                         <li className='cursor-pointer'>
-                            {isAuthenticated ?
-                                <button
-                                    onClick={handleSignOut}
-                                    className="block py-2 px-3 text-green-400"
-                                >Signout</button>
-                                :
-                                <Link
-                                    href="/login"
-                                    className="block py-2 px-3 text-green-400"
-                                >Login</Link>
+                            {
+                                !isAuthenticated ?
+                                    <Link
+                                        href="/login"
+                                        className="block py-2 px-3 text-green-400"
+                                    >Login</Link>
+                                    : <button
+                                        onClick={handleSignOut}
+                                        className="block py-2 px-3 text-green-400"
+                                    >Signout</button>
                             }
                         </li>
                     </ul>

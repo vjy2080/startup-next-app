@@ -1,8 +1,10 @@
 'use client'
 
 import React, { useState } from 'react';
-import HomeData from '../components/HomeData';
+import HomeData from '../components/dataArray/HomeData';
 import CardModal from '../components/CardModal';
+
+
 
 const HomeComponent = () => {
     const [modalItem, setModalItem] = useState(null);

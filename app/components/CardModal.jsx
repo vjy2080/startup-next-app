@@ -4,7 +4,9 @@ const CardModal = ({ imageURL, title, description, details, tags, onClose }) => 
     return (
         <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center">
             <div className="bg-white rounded-2xl p-8 max-w-screen-lg w-full">
-                <img src={imageURL} alt={title} className="w-full mb-4 rounded-lg" />
+                <div className='flex justify-center'>
+                    <img src={imageURL} alt={title} className="w-80 h-40 mb-4 rounded-lg" />
+                </div>
                 <h2 className="text-2xl font-bold mb-2">{title}</h2>
                 <p className="text-black-700 mb-4">{description}</p>
                 <p className="text-gray-500 text-sm	 mb-4">{details}</p>
