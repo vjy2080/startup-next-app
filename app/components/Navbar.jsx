@@ -41,14 +41,14 @@ const Navbar = () => {
                         <li className='cursor-pointer'>
                             <Link
                                 href="/"
-                                className="block py-2 px-3 text-green-400"
+                                className="block py-2 px-3 text-emerald-50"
                                 aria-current="page"
                             >Home</Link>
                         </li>
                         <li className='cursor-pointer'>
                             <Link
                                 href="/about"
-                                className="block py-2 px-3 text-green-400"
+                                className="block py-2 px-3 text-emerald-50"
                             >About</Link>
                         </li>
                         <li>
@@ -59,11 +59,11 @@ const Navbar = () => {
                                 !isAuthenticated ?
                                     <Link
                                         href="/login"
-                                        className="block py-2 px-3 text-green-400"
+                                        className="block py-2 px-3 text-emerald-50"
                                     >Login</Link>
                                     : <button
                                         onClick={handleSignOut}
-                                        className="block py-2 px-3 text-green-400"
+                                        className="block py-2 px-3 text-emerald-50"
                                     >Signout</button>
                             }
                         </li>

@@ -19,7 +19,7 @@ const HomeComponent = () => {
 
     return (
         <>
-            <div className="grid grid-cols-1 p-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center content-center">
+            <div className="bg-gray-100 grid grid-cols-1 p-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center content-center">
                 {HomeData.map((item, index) => (
                     <div
                         onClick={() => openModal(item)}

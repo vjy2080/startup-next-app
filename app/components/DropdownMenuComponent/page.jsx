@@ -8,7 +8,7 @@ const DropdownMenuComponent = () => {
         <DropdownMenu.Root>
             <DropdownMenu.Trigger asChild>
                 <Link href="/dashboard/setting cursor-pointer"
-                    className="block py-2 px-3 text-green-400"
+                    className="block py-2 px-3 text-emerald-50"
                 >Dashboard</Link>
             </DropdownMenu.Trigger>
 

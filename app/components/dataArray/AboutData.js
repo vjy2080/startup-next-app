@@ -46,13 +46,7 @@ const AboutData = [
         title: 'Environment Variables',
         subtitle: 'Manage across environments',
         description: `Environment Variables are a fundamental aspect of configuring and managing web applications across different environments, such as development, staging, and production. These variables are used to store configuration values and sensitive information, such as API keys, database connection strings, and feature flags. By separating configuration from code, environment variables allow for more flexible and secure management of application settings.Managing environment variables involves defining them in separate configuration files or system settings, which can then be accessed by the application at runtime. This approach allows developers to use different configurations for different environments without changing the application code. For example, you can use a different API endpoint for development and production environments by setting environment-specific variables.Environment variables also contribute to improved security by keeping sensitive information out of the source code. By storing such information in environment variables, it can be kept secure and not exposed in version control systems. Overall, managing environment variables is essential for maintaining flexible, secure, and scalable web applications, ensuring that configuration values are appropriately handled across various environments.`,
-    },
-    {
-        id: '9',
-        title: 'API Preview Mode',
-        subtitle: 'Preview draft content',
-        description: `API Preview Mode is a feature that allows developers and content creators to preview draft content and changes before they are published or made live. This functionality is particularly useful in content management systems and web applications where content is frequently updated or modified. API Preview Mode provides a way to view and test new content or updates in a staging environment, ensuring that everything looks and functions as expected before going live.With API Preview Mode, developers can access draft versions of content via specific API routes or endpoints, allowing them to review changes in a real-world context. This feature helps in identifying and resolving issues or inconsistencies before they reach end users, reducing the risk of errors or poor user experiences.API Preview Mode also facilitates better collaboration between developers, content creators, and stakeholders by providing a clear view of how content changes will appear once published. This can streamline the review and approval process, ensuring that all parties are aligned on the final content. Overall, API Preview Mode is a valuable tool for managing content updates and ensuring high-quality user experiences in web applications.`,
-    },
+    }
 ];
 
 export default AboutData;
