@@ -5,16 +5,11 @@ import * as ContextMenu from '@radix-ui/react-context-menu';
 import { DotFilledIcon, CheckIcon, ChevronRightIcon } from '@radix-ui/react-icons';
 import './styles.css';
 import { useRouter } from 'next/navigation';
+import useAuth from '@/app/components/useAuth';
+
 
 const Setting = () => {
-    const { push } = useRouter();
-
-    useEffect(() => {
-        const login = localStorage.getItem("login");
-        if (!login) {
-            push('/login');
-        }
-    }, [push]);
+    useAuth();
     const [bookmarksChecked, setBookmarksChecked] = useState(true);
     const [urlsChecked, setUrlsChecked] = useState(false);
     const [person, setPerson] = useState('pedro');

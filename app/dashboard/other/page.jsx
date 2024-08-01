@@ -1,20 +1,13 @@
 'use client'
 
 import OtherData from '@/app/components/dataArray/OtherData';
-import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
+import useAuth from '@/app/components/useAuth';
 
 const Other = () => {
-    const { push } = useRouter();
+    useAuth();
     const [selectedId, setSelectedId] = useState(null);
-
-    useEffect(() => {
-        const login = localStorage.getItem("login");
-        if (!login) {
-            push('/login');
-        }
-    }, [push]);
 
     const mapItemsByCategory = (items) => {
         return items.reduce((acc, item) => {

@@ -2,21 +2,15 @@
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import AboutData from '../components/dataArray/aboutData';
+import AboutData from '../components/dataArray/AboutData';
+import useAuth from '../components/useAuth';
 
 
 
 
 const About = () => {
-    const { push } = useRouter();
+    useAuth();
     const [selectedId, setSelectedId] = useState(null);
-
-    useEffect(() => {
-        const login = localStorage.getItem("login");
-        if (!login) {
-            push('/login');
-        }
-    }, [push]);
 
     return (
         <div className="bg-gray-100 min-h-screen py-6 px-4 sm:px-6 lg:px-8">
