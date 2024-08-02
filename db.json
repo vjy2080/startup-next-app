@@ -368,7 +368,963 @@
         "Web Development"
      ],
      "detail":"`JAMstack architecture emphasizes performance and security by using client-side JavaScript, APIs, and prebuilt Markup to create scalable web applications. It stands for JavaScript, APIs, and Markup and is known for its fast load times, improved security, and simplified scaling. JAMstack promotes decoupling front-end and back-end components, enabling developers to use prebuilt services and APIs for dynamic functionalities. By leveraging serverless functions and content delivery networks (CDNs), JAMstack sites achieve high performance and reliability. This architecture is ideal for building websites that require frequent updates, scalable infrastructure, and seamless integration with third-party services.`"
-  }
+  },
+   {
+     "id": 13,
+     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg",
+     "title": "React State Management",
+     "description": "React State Management refers to the techniques and libraries used to manage the state of a React application. It is crucial for building dynamic and interactive web applications.",
+     "tags": [
+       "React",
+       "State Management",
+       "Redux",
+       "Context API",
+       "Recoil"
+     ],
+     "detail": "`React State Management is essential for building dynamic web applications. Techniques like Redux, Context API, and Recoil help manage and share state across components. Efficient state management ensures that the application responds correctly to user interactions and updates seamlessly. By using these tools, developers can simplify state handling, reduce bugs, and improve the overall maintainability of the code.`"
+   },
+   {
+     "id": 14,
+     "imageURL": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+     "title": "React Router",
+     "description": "React Router is a standard library for routing in React. It enables navigation among views of various components in a React application, allowing for dynamic routing and navigation.",
+     "tags": [
+       "React Router",
+       "Routing",
+       "Navigation",
+       "Single Page Application",
+       "Dynamic Routing"
+     ],
+     "detail": "`React Router facilitates navigation within React applications, allowing for dynamic routing and a seamless user experience. It provides a declarative way to handle routes, making it easier to manage complex navigation scenarios. With features like nested routes and route parameters, React Router enhances the flexibility and scalability of React applications.`"
+   },
+   {
+     "id": 15,
+     "imageURL": "https://i.ytimg.com/vi/DXxt4oIAI4Y/hqdefault.jpg",
+     "title": "CSS Grid",
+     "description": "CSS Grid is a powerful layout system available in CSS. It provides a grid-based layout system, offering a flexible and efficient way to create complex web designs.",
+     "tags": [
+       "CSS Grid",
+       "Layout",
+       "Responsive Design",
+       "Web Design",
+       "CSS"
+     ],
+     "detail": "`CSS Grid offers a powerful and flexible layout system for creating complex web designs. It allows developers to create grid-based layouts with rows and columns, making it easy to align and position elements on a page. CSS Grid supports responsive design, ensuring that layouts adapt to different screen sizes and devices. By using CSS Grid, developers can build modern and visually appealing web interfaces efficiently.`"
+   },
+   {
+     "id": 16,
+     "imageURL": "https://media.licdn.com/dms/image/D4D12AQFQKRgZStlh3A/article-cover_image-shrink_720_1280/0/1694236782074?e=2147483647&v=beta&t=vnn6k94P3y13BUIgwgCTc-vZbDCTuOJePSIPrPGbCpA",
+     "title": "GraphQL",
+     "description": "GraphQL is a query language for APIs and a runtime for executing those queries. It provides a more efficient and powerful alternative to REST by allowing clients to request only the data they need.",
+     "tags": [
+       "GraphQL",
+       "API",
+       "Data Fetching",
+       "Efficiency",
+       "REST Alternative"
+     ],
+     "detail": "`GraphQL provides a more efficient way to interact with APIs by allowing clients to request only the data they need. It replaces REST by offering a flexible and powerful query language that enables clients to specify exactly what data they want. This approach reduces over-fetching and under-fetching of data, improving the performance and efficiency of web applications. GraphQL supports complex queries and real-time updates, making it ideal for modern web development.`"
+   },
+   {
+     "id": 17,
+     "imageURL": "https://www.getfishtank.com/-/media/v2/v2-blog/what-is-a-headless-cms/headless-cms.ashx",
+     "title": "Headless CMS",
+     "description": "A Headless CMS is a content management system that separates the back-end content management from the front-end presentation layer. This provides more flexibility and allows for the use of any front-end technology.",
+     "tags": [
+       "Headless CMS",
+       "Content Management",
+       "API",
+       "Flexibility",
+       "Front-end"
+     ],
+     "detail": "`Headless CMS offers a modern approach to content management by decoupling the back-end from the front-end. This separation provides developers with the flexibility to use any front-end technology while managing content via APIs. Headless CMS platforms like Strapi and Contentful allow for seamless integration with various frameworks and tools, enabling developers to build scalable and customized web applications. By using a Headless CMS, content can be delivered across multiple channels, including web, mobile, and IoT devices.`"
+   },
+   {
+     "id": 18,
+     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+     "title": "Component Libraries",
+     "description": "Component Libraries like Material-UI and Ant Design provide pre-built UI components that help streamline the development process and ensure design consistency across applications.",
+     "tags": [
+       "Component Libraries",
+       "Material-UI",
+       "Ant Design",
+       "UI Components",
+       "Design Consistency"
+     ],
+     "detail": "`Component Libraries offer a collection of pre-built UI components that help developers build consistent and visually appealing interfaces quickly. Libraries like Material-UI and Ant Design provide a wide range of customizable components that adhere to design guidelines and best practices. By using these libraries, developers can speed up the development process, reduce code duplication, and ensure design consistency across different parts of an application. Component Libraries also come with built-in theming capabilities, making it easy to create a cohesive look and feel.`"
+   },
+   {
+     "id": 19,
+     "imageURL": "https://miro.medium.com/v2/resize:fit:6000/1*qv4SY2tovG2mf1uDEzbA2A.jpeg",
+     "title": "Redux",
+     "description": "Redux is a predictable state container for JavaScript apps, often used with React. It helps manage the state of an application in a consistent way, making it easier to debug and test.",
+     "tags": [
+       "Redux",
+       "State Management",
+       "React",
+       "JavaScript",
+       "Predictable"
+     ],
+     "detail": "`Redux provides a predictable state container for JavaScript applications, making state management consistent and easier to debug. It is commonly used with React to handle complex state logic and ensure that the application state is predictable and centralized. Redux uses actions and reducers to update the state, following a strict unidirectional data flow. This approach simplifies state management, improves code maintainability, and makes it easier to implement features like undo/redo and time-travel debugging.`"
+   },
+   {
+     "id": 20,
+     "imageURL": "https://www.tatvasoft.com/blog/wp-content/uploads/2020/05/Serverless-An-Emerging-Software-Architecture.jpg",
+     "title": "Serverless Architecture",
+     "description": "Serverless Architecture is a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. It allows developers to build and run applications without managing server infrastructure.",
+     "tags": [
+       "Serverless Architecture",
+       "Cloud Computing",
+       "Scalability",
+       "AWS Lambda",
+       "Function as a Service"
+     ],
+     "detail": "`Serverless Architecture allows developers to build and run applications without managing server infrastructure. The cloud provider automatically handles the allocation and provisioning of servers, enabling developers to focus on writing code. This approach offers scalability, reduced operational costs, and faster time to market. Serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions support event-driven computing, where code is executed in response to events, making it ideal for microservices and real-time applications.`"
+   },
+   {
+     "id": 21,
+     "imageURL": "https://media.licdn.com/dms/image/D5612AQFyNUX3XiNmFg/article-cover_image-shrink_720_1280/0/1685942878812?e=2147483647&v=beta&t=ZNLVG0S4u2EpEL996LxU6p5EngtVUUoDfyY4RF8gsUY",
+     "title": "Continuous Integration and Continuous Deployment (CI/CD)",
+     "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. It enables rapid and reliable delivery of applications.",
+     "tags": [
+       "CI/CD",
+       "Continuous Integration",
+       "Continuous Deployment",
+       "Automation",
+       "DevOps"
+     ],
+     "detail": "`CI/CD practices involve continuous integration and continuous deployment, enabling rapid and reliable delivery of applications. CI/CD pipelines automate the process of integrating code changes, running tests, and deploying applications, ensuring that updates are released frequently and consistently. By adopting CI/CD, development teams can reduce manual errors, accelerate the release cycle, and improve collaboration. Tools like Jenkins, CircleCI, and GitHub Actions facilitate the implementation of CI/CD pipelines, promoting DevOps practices and improving overall software quality.`"
+   },
+   {
+     "id": 22,
+     "imageURL": "https://www.svgrepo.com/show/353985/rest-api.svg",
+     "title": "RESTful APIs",
+     "description": "RESTful APIs are web services that follow the principles of REST (Representational State Transfer). They use HTTP methods to interact with resources, providing a simple and scalable way to build APIs.",
+     "tags": [
+       "RESTful APIs",
+       "HTTP",
+       "Web Services",
+       "Scalability",
+       "Resources"
+     ],
+     "detail": "`RESTful APIs provide a scalable and simple way to build web services by following the principles of REST (Representational State Transfer). They use standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources, making them easy to use and integrate. RESTful APIs support stateless communication, meaning each request contains all the information needed to process it. This approach ensures scalability, as servers can handle multiple requests independently. RESTful APIs are widely used in web development for creating CRUD (Create, Read, Update, Delete) operations and enabling communication between client and server applications.`"
+   },
+   {
+     "id": 23,
+     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubernetes_logo_without_workmark.svg",
+     "title": "Kubernetes",
+     "description": "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It provides a robust framework for running distributed systems resiliently.",
+     "tags": [
+       "Kubernetes",
+       "Containers",
+       "Orchestration",
+       "Scaling",
+       "Distributed Systems"
+     ],
+     "detail": "`Kubernetes is an open-source platform that automates the deployment, scaling, and operation of application containers. It provides a robust framework for running distributed systems resiliently, ensuring that applications are highly available and scalable. Kubernetes manages containerized applications across a cluster of machines, handling tasks such as load balancing, service discovery, and resource allocation. By using Kubernetes, developers can deploy and manage containerized applications efficiently, improving the scalability and reliability of their systems.`"
+   },
+   {
+     "id": 24,
+     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+     "title": "Express.js",
+     "description": "Express.js is a minimal and flexible Node.js web application framework. It provides a robust set of features for building web and mobile applications, making it a popular choice for server-side development.",
+     "tags": [
+       "Express.js",
+       "Node.js",
+       "Web Framework",
+       "Server-side",
+       "JavaScript"
+     ],
+     "detail": "`Express.js is a minimal and flexible web application framework for Node.js, offering a robust set of features for building web and mobile applications. It simplifies server-side development by providing a range of middleware and routing capabilities. Express.js supports RESTful APIs, making it easy to create endpoints for CRUD operations. Its flexibility and simplicity make it a popular choice for building server-side applications, enabling developers to focus on writing business logic and handling requests and responses efficiently.`"
+   },
+   {
+     "id": 25,
+     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Bootstrap_logo.svg",
+     "title": "Bootstrap",
+     "description": "Bootstrap is a popular front-end framework for building responsive, mobile-first websites. It includes pre-designed UI components and utility classes, helping developers create modern web interfaces quickly.",
+     "tags": [
+       "Bootstrap",
+       "Front-end Framework",
+       "Responsive Design",
+       "UI Components",
+       "CSS"
+     ],
+     "detail": "`Bootstrap is a widely used front-end framework that helps developers build responsive, mobile-first websites quickly and efficiently. It includes a collection of pre-designed UI components and utility classes, making it easy to create modern and consistent web interfaces. Bootstrap supports responsive design principles, ensuring that websites look and function well on different devices and screen sizes. By using Bootstrap, developers can save time on design and focus on implementing functionality, leveraging the framework's extensive documentation and community support.`"
+   },
+   {
+     "id": 26,
+     "imageURL": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+     "title": "Angular",
+     "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It provides a robust set of tools and features for developing complex web applications.",
+     "tags": [
+       "Angular",
+       "Single-Page Application",
+       "TypeScript",
+       "Web Framework",
+       "Client-side"
+     ],
+     "detail": "`Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It offers a comprehensive set of tools and features for developing complex web applications, including data binding, dependency injection, and component-based architecture. Angular's CLI (Command Line Interface) streamlines the development process by automating tasks like project setup, building, and testing. With its modular structure and strong typing, Angular ensures that applications are scalable, maintainable, and performant.`"
+   },
+   {
+     "id": 27,
+     "imageURL": "https://cdn.auth0.com/blog/react-js/react.png",
+     "title": "React",
+     "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of applications efficiently, making it a popular choice for front-end development.",
+     "tags": [
+       "React",
+       "JavaScript Library",
+       "User Interfaces",
+       "UI Components",
+       "State Management"
+     ],
+     "detail": "`React is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and efficiently manage the state of applications. React's virtual DOM ensures fast and efficient updates to the user interface, enhancing performance. By using React, developers can build dynamic and interactive web applications with ease, leveraging the component-based architecture and state management capabilities. React's popularity and strong community support make it a preferred choice for modern front-end development.`"
+   },
+   {
+     "id": 28,
+     "imageURL": "https://miro.medium.com/v2/resize:fit:1200/1*FZzVQdfZ-F78vPEEELsF-w.png",
+     "title": "Docker",
+     "description": "Docker is a platform for developing, shipping, and running applications in containers. It enables developers to package applications and their dependencies into a single container, ensuring consistency across different environments.",
+     "tags": [
+       "Docker",
+       "Containers",
+       "DevOps",
+       "Consistency",
+       "Virtualization"
+     ],
+     "detail": "Docker is a platform that allows developers to package applications and their dependencies into containers, ensuring consistency across different environments. Containers are lightweight, portable, and self-sufficient, making it easy to develop, ship, and run applications. Docker simplifies the process of setting up development environments, reducing the works on my machine problem. By using Docker, developers can achieve faster deployment, improved scalability, and better resource utilization, supporting modern DevOps practices and microservices architecture."
+   },
+   {
+     "id": 29,
+     "imageURL": "https://miro.medium.com/v2/resize:fit:1400/1*0Wz5D29NDHKNauMSxBc18g.png",
+     "title": "Microservices",
+     "description": "Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, promoting flexibility and scalability.",
+     "tags": [
+       "Microservices",
+       "Architecture",
+       "Loosely Coupled",
+       "Scalability",
+       "Flexibility"
+     ],
+     "detail": "`Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, allowing for independent development, deployment, and scaling. This approach promotes flexibility and scalability, enabling teams to work on different parts of the application simultaneously. Microservices architecture supports continuous delivery and DevOps practices, making it ideal for large-scale, complex applications that require frequent updates and high availability.`"
+   },
+   {
+     "id": 30,
+     "imageURL": "https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png",
+     "title": "Flutter",
+     "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications from a single codebase, offering a high-performance and visually attractive user experience.",
+     "tags": [
+       "Flutter",
+       "Cross-Platform",
+       "UI Toolkit",
+       "Google",
+       "Single Codebase"
+     ],
+     "detail": "`Flutter is an open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. It offers a high-performance and visually attractive user experience with its rich set of pre-designed widgets and tools. Flutter's hot reload feature allows developers to see changes instantly, speeding up the development process. By using Flutter, developers can create cross-platform applications that deliver a consistent look and feel across different devices and platforms, reducing development time and effort.`"
+   },
+   {
+      "id": 31,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Apache_Mahout_logo.svg",
+      "title": "Apache Mahout",
+      "description": "Apache Mahout is an open-source project designed for scalable machine learning and data mining. It provides algorithms for clustering, classification, and recommendation.",
+      "tags": [
+        "Apache Mahout",
+        "Machine Learning",
+        "Data Mining",
+        "Algorithms",
+        "Scalability"
+      ],
+      "detail": "`Apache Mahout is an open-source machine learning and data mining library designed for scalable data analysis. It provides a range of algorithms for clustering, classification, and recommendation, making it easier to build predictive models and analyze large datasets. Mahout is built to integrate with Hadoop and other big data technologies.`"
+    },
+   {
+      "id": 32,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Redis_Logo.svg",
+      "title": "Redis",
+      "description": "Redis is an in-memory data structure store used as a database, cache, and message broker. It provides fast data access and supports various data structures like strings, hashes, lists, and sets.",
+      "tags": [
+        "Redis",
+        "In-memory Database",
+        "Cache",
+        "NoSQL",
+        "Data Structures"
+      ],
+      "detail": "`Redis is an in-memory data structure store that functions as a database, cache, and message broker. It is known for its high performance and support for various data structures, including strings, hashes, lists, sets, and sorted sets. Redis is often used to speed up applications by providing quick access to frequently requested data and reducing the load on primary databases. Its versatility and rich feature set, such as pub/sub messaging and persistence options, make it a popular choice for optimizing application performance and scalability.`"
+    },
+    {
+      "id": 33,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nginx_logo.png",
+      "title": "Nginx",
+      "description": "Nginx is a high-performance web server and reverse proxy server. It is known for its scalability, reliability, and efficient handling of concurrent connections.",
+      "tags": [
+        "Nginx",
+        "Web Server",
+        "Reverse Proxy",
+        "Load Balancer",
+        "Performance"
+      ],
+      "detail": "`Nginx is a high-performance web server and reverse proxy server known for its scalability and efficiency. It excels at handling a large number of concurrent connections and can be used for load balancing, HTTP caching, and as a reverse proxy. Nginx is often employed in combination with other technologies to improve web application performance, enhance security, and provide a reliable and robust infrastructure for serving web content.`"
+    },
+    {
+      "id": 34,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/73/Apache_Hadoop_Logo.svg",
+      "title": "Apache Hadoop",
+      "description": "Apache Hadoop is an open-source framework for processing and storing large datasets. It uses a distributed computing model to handle big data across clusters of computers.",
+      "tags": [
+        "Apache Hadoop",
+        "Big Data",
+        "Distributed Computing",
+        "Data Processing",
+        "Cluster Management"
+      ],
+      "detail": "`Apache Hadoop is an open-source framework designed to process and store large datasets across clusters of computers. It utilizes a distributed computing model, allowing for the scalable and efficient processing of big data. Hadoop includes components such as the Hadoop Distributed File System (HDFS) for storage and MapReduce for data processing. By leveraging Hadoop, organizations can manage and analyze vast amounts of data, making it a key tool for big data analytics and processing.`"
+    },
+    {
+      "id": 35,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Socket_io_logo.png",
+      "title": "Socket.IO",
+      "description": "Socket.IO is a JavaScript library for real-time web applications. It enables bi-directional communication between clients and servers over WebSockets, allowing for real-time data exchange.",
+      "tags": [
+        "Socket.IO",
+        "Real-time Communication",
+        "WebSockets",
+        "JavaScript",
+        "Node.js"
+      ],
+      "detail": "`Socket.IO is a JavaScript library that enables real-time, bi-directional communication between web clients and servers. It provides a simple API for creating real-time applications using WebSockets and other transport protocols. Socket.IO is often used for building chat applications, live notifications, and real-time data updates. Its support for fallback mechanisms and efficient handling of concurrent connections make it a popular choice for developing interactive and responsive web applications.`"
+    },
+    {
+      "id": 36,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/26/Redux_Logo.png",
+      "title": "Redux",
+      "description": "Redux is a predictable state container for JavaScript applications. It helps manage application state in a consistent manner using a unidirectional data flow and is often used with React.",
+      "tags": [
+        "Redux",
+        "State Management",
+        "JavaScript",
+        "React",
+        "Unidirectional Data Flow"
+      ],
+      "detail": "`Redux is a predictable state container for JavaScript applications, designed to manage application state in a consistent and predictable manner. It follows a unidirectional data flow, where state changes are handled through actions and reducers. Redux is often used in conjunction with React to manage complex state logic and ensure a consistent user experience. Its central store and middleware support make it a powerful tool for handling state in large-scale applications.`"
+    },
+    {
+      "id": 37,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/GraphQL_Logo.svg",
+      "title": "Apollo GraphQL",
+      "description": "Apollo GraphQL is a platform that provides tools and libraries for building GraphQL APIs. It includes features for managing server-side and client-side data interactions, making it easier to work with GraphQL.",
+      "tags": [
+        "Apollo GraphQL",
+        "GraphQL",
+        "API Management",
+        "Data Fetching",
+        "Client and Server"
+      ],
+      "detail": "`Apollo GraphQL is a comprehensive platform that offers tools and libraries for building and managing GraphQL APIs. It provides a suite of features for both server-side and client-side data interactions, simplifying the process of working with GraphQL. Apollo includes a client library for integrating GraphQL queries into applications, as well as server-side tools for creating and managing GraphQL schemas. By using Apollo, developers can streamline data fetching, enhance performance, and improve the developer experience when working with GraphQL.`"
+    },
+    {
+      "id": 38,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jest_Logo.png",
+      "title": "Jest",
+      "description": "Jest is a testing framework for JavaScript, often used with React applications. It provides a simple and effective way to write unit tests, integration tests, and mock functions.",
+      "tags": [
+        "Jest",
+        "Testing Framework",
+        "JavaScript",
+        "Unit Testing",
+        "React"
+      ],
+      "detail": "`Jest is a testing framework for JavaScript that is particularly well-suited for testing React applications. It provides a simple and intuitive API for writing unit tests, integration tests, and mock functions. Jest includes features such as snapshot testing, code coverage analysis, and parallel test execution, making it a powerful tool for ensuring code quality and reliability. Its ease of use and comprehensive feature set have made it a popular choice for modern JavaScript testing.`"
+    },
+    {
+      "id": 39,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Apache_Kafka_logo.svg",
+      "title": "Apache Kafka",
+      "description": "Apache Kafka is a distributed streaming platform that allows for the building of real-time data pipelines and streaming applications. It provides high-throughput, low-latency, and fault-tolerant data streaming capabilities.",
+      "tags": [
+        "Apache Kafka",
+        "Streaming Platform",
+        "Data Pipelines",
+        "Real-time",
+        "Fault-tolerant"
+      ],
+      "detail": "`Apache Kafka is a distributed streaming platform designed to build real-time data pipelines and streaming applications. It provides high-throughput and low-latency data streaming capabilities, enabling efficient processing of large volumes of data. Kafka's fault-tolerant architecture and support for data replication make it suitable for handling real-time data feeds and ensuring data integrity. By using Kafka, organizations can manage and analyze streaming data with scalability and reliability.`"
+    },
+    {
+      "id": 40,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/AWS_CloudFormation_Logo.svg",
+      "title": "AWS CloudFormation",
+      "description": "AWS CloudFormation is a service that provides a common language for describing and provisioning infrastructure resources in a cloud environment. It enables users to manage and automate their AWS infrastructure using templates.",
+      "tags": [
+        "AWS CloudFormation",
+        "Infrastructure as Code",
+        "AWS",
+        "Automation",
+        "Cloud"
+      ],
+      "detail": "`AWS CloudFormation is a service that allows users to define and provision AWS infrastructure using declarative templates. It provides a common language for describing cloud resources and automates the deployment and management of infrastructure. With CloudFormation, users can create, update, and manage a wide range of AWS resources, enabling infrastructure as code and improving consistency and repeatability in cloud deployments.`"
+    },
+    {
+      "id": 41,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/ElasticSearch_Logo.png",
+      "title": "Elasticsearch",
+      "description": "Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multi-tenant capable full-text search engine with an HTTP web interface and schema-free JSON documents.",
+      "tags": [
+        "Elasticsearch",
+        "Search Engine",
+        "Full-text Search",
+        "Distributed",
+        "JSON"
+      ],
+      "detail": "`Elasticsearch is a distributed search engine built on the Lucene library, designed for full-text search and data analysis. It offers a powerful search and analytics engine with support for schema-free JSON documents. Elasticsearch is commonly used for log and event data analysis, real-time search capabilities, and data aggregation. Its distributed architecture allows for horizontal scaling and high availability, making it a popular choice for search applications and large-scale data querying.`"
+    },
+    {
+      "id": 42,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/39/Redis_Logo.png",
+      "title": "Memcached",
+      "description": "Memcached is a distributed memory object caching system. It is used to speed up dynamic web applications by alleviating database load and reducing data retrieval time.",
+      "tags": [
+        "Memcached",
+        "Caching",
+        "In-memory Database",
+        "Performance",
+        "Scalability"
+      ],
+      "detail": "`Memcached is a high-performance, distributed memory object caching system used to improve the speed and scalability of dynamic web applications. By storing frequently accessed data in memory, Memcached reduces the load on databases and speeds up data retrieval times. It is widely used to enhance the performance of web applications by caching query results, session data, and other frequently accessed information.`"
+    },
+    {
+      "id": 43,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/03/Docker_Logo.png",
+      "title": "Docker",
+      "description": "Docker is a platform for developing, shipping, and running applications inside lightweight containers. It provides a consistent environment for applications across different environments and systems.",
+      "tags": [
+        "Docker",
+        "Containers",
+        "DevOps",
+        "Virtualization",
+        "Application Deployment"
+      ],
+      "detail": "`Docker is a platform that enables developers to build, ship, and run applications within lightweight, portable containers. Containers provide a consistent runtime environment, ensuring that applications behave the same way across different systems and environments. Docker simplifies application deployment, scaling, and management by isolating dependencies and providing a uniform development and production environment. It is widely used in DevOps and continuous integration/continuous deployment (CI/CD) pipelines.`"
+    },
+    {
+      "id": 44,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/GitLab_Logo.svg",
+      "title": "GitLab",
+      "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager, continuous integration and delivery, and issue tracking in a single application.",
+      "tags": [
+        "GitLab",
+        "DevOps",
+        "Git",
+        "CI/CD",
+        "Version Control"
+      ],
+      "detail": "`GitLab is an integrated DevOps platform that combines source code management with continuous integration and delivery, issue tracking, and project management features. It provides a comprehensive suite of tools for managing the entire software development lifecycle within a single application. GitLab supports Git repositories, CI/CD pipelines, and collaboration features, making it a popular choice for managing and automating development workflows.`"
+    },
+    {
+      "id": 45,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Azure_DevOps_Logo.svg",
+      "title": "Azure DevOps",
+      "description": "Azure DevOps is a suite of development tools from Microsoft that provides a set of cloud-based services for planning, developing, and deploying applications. It includes tools for version control, build automation, and release management.",
+      "tags": [
+        "Azure DevOps",
+        "DevOps",
+        "Cloud Services",
+        "CI/CD",
+        "Project Management"
+      ],
+      "detail": "`Azure DevOps is a cloud-based suite of development tools from Microsoft that supports the entire software development lifecycle. It includes services for version control, build automation, release management, and project tracking. Azure DevOps enables teams to plan, develop, and deploy applications efficiently, providing a comprehensive platform for managing DevOps processes and enhancing collaboration across development and operations.`"
+    },
+    {
+      "id": 46,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Angular_Logo.svg",
+      "title": "Angular",
+      "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It provides a comprehensive suite of tools for developing dynamic and interactive web applications.",
+      "tags": [
+        "Angular",
+        "TypeScript",
+        "SPA",
+        "Web Development",
+        "Framework"
+      ],
+      "detail": "`Angular is a platform and framework for building dynamic single-page applications (SPAs) using HTML and TypeScript. It provides a robust set of tools and libraries for developing scalable and maintainable web applications. Angular includes features such as two-way data binding, dependency injection, and a powerful CLI, enabling developers to create interactive and feature-rich applications. Its component-based architecture and extensive ecosystem make it a popular choice for enterprise-level web development.`"
+    },
+    {
+      "id": 47,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bootstrap_logo.svg",
+      "title": "Bootstrap",
+      "description": "Bootstrap is a front-end framework for developing responsive and mobile-first websites. It includes a set of CSS and JavaScript components for creating modern web designs and user interfaces.",
+      "tags": [
+        "Bootstrap",
+        "Front-end Framework",
+        "Responsive Design",
+        "UI Components",
+        "Mobile-first"
+      ],
+      "detail": "`Bootstrap is a popular front-end framework that provides a collection of CSS and JavaScript components for building responsive and mobile-first web designs. It includes pre-designed UI elements such as navigation bars, buttons, and modals, allowing developers to create modern and consistent user interfaces quickly. Bootstrap's grid system and responsive utilities make it easy to build layouts that adapt to different screen sizes and devices.`"
+    },
+    {
+      "id": 48,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/Expressjs.png",
+      "title": "Express.js",
+      "description": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It simplifies the process of creating server-side applications and APIs.",
+      "tags": [
+        "Express.js",
+        "Node.js",
+        "Web Framework",
+        "APIs",
+        "Server-side"
+      ],
+      "detail": "`Express.js is a lightweight and flexible Node.js framework that simplifies the development of server-side applications and APIs. It provides a minimalistic approach to building web applications, offering a robust set of features such as routing, middleware support, and HTTP utilities. Express.js is widely used for creating RESTful APIs, handling HTTP requests, and managing server-side logic, making it a popular choice for Node.js development.`"
+    },
+    {
+      "id": 49,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/05/GraphQL_Logo.svg",
+      "title": "Relay",
+      "description": "Relay is a JavaScript framework for building data-driven React applications using GraphQL. It manages data fetching and caching, providing a seamless integration with GraphQL APIs.",
+      "tags": [
+        "Relay",
+        "GraphQL",
+        "React",
+        "Data Management",
+        "Caching"
+      ],
+      "detail": "`Relay is a JavaScript framework developed by Facebook for building data-driven React applications using GraphQL. It provides an efficient way to manage data fetching and caching by integrating seamlessly with GraphQL APIs. Relay simplifies the process of querying data and updating the UI, offering powerful features such as automatic data normalization and optimistic updates. It enhances the performance and scalability of React applications by optimizing data interactions and reducing unnecessary network requests.`"
+    },
+    {
+      "id": 50,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/CircleCI_Logo.svg",
+      "title": "CircleCI",
+      "description": "CircleCI is a cloud-based continuous integration and delivery platform that automates the build, test, and deployment process for software projects. It supports various programming languages and integrates with popular version control systems.",
+      "tags": [
+        "CircleCI",
+        "CI/CD",
+        "Automation",
+        "Cloud-based",
+        "Software Development"
+      ],
+      "detail": "`CircleCI is a cloud-based CI/CD platform that automates the process of building, testing, and deploying software projects. It supports a wide range of programming languages and integrates with popular version control systems like GitHub and Bitbucket. CircleCI provides features such as parallel builds, automated testing, and deployment pipelines, allowing teams to accelerate their development workflows and ensure code quality through continuous integration and delivery.`"
+    },
+    {
+      "id": 51,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/Kubernetes_Logo.svg",
+      "title": "Kubernetes",
+      "description": "Kubernetes is an open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications. It provides a robust framework for managing containerized workloads and services.",
+      "tags": [
+        "Kubernetes",
+        "Container Orchestration",
+        "DevOps",
+        "Automation",
+        "Cloud-native"
+      ],
+      "detail": "`Kubernetes is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a comprehensive framework for orchestrating containers, handling complex application deployments, and managing distributed systems. Kubernetes includes features such as automated scaling, self-healing, and load balancing, making it a powerful tool for managing cloud-native applications and microservices architectures.`"
+    },
+    {
+      "id": 52,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Cloud_Platform_logo.svg",
+      "title": "Google Cloud Platform",
+      "description": "Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. It offers infrastructure, platform, and software services for building, deploying, and managing applications and data.",
+      "tags": [
+        "Google Cloud Platform",
+        "Cloud Computing",
+        "Infrastructure",
+        "Platform",
+        "Software"
+      ],
+      "detail": "`Google Cloud Platform (GCP) is a comprehensive suite of cloud computing services provided by Google. It offers a range of infrastructure, platform, and software services for building, deploying, and managing applications and data. GCP includes services such as computing power, storage, databases, machine learning, and analytics, enabling businesses to leverage Google's robust cloud infrastructure and advanced technology for their digital needs.`"
+    },
+    {
+      "id": 53,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Heroku_logo.svg",
+      "title": "Heroku",
+      "description": "Heroku is a cloud platform that enables developers to build, run, and operate applications entirely in the cloud. It provides a simple and scalable environment for deploying web applications and services.",
+      "tags": [
+        "Heroku",
+        "Cloud Platform",
+        "Application Deployment",
+        "Scalability",
+        "PaaS"
+      ],
+      "detail": "`Heroku is a cloud-based platform-as-a-service (PaaS) that allows developers to build, deploy, and manage applications entirely in the cloud. It provides a straightforward and scalable environment for deploying web applications, handling tasks such as scaling, monitoring, and managing infrastructure. Heroku supports various programming languages and frameworks, making it a popular choice for developers looking to streamline application deployment and operations.`"
+    },
+    {
+      "id": 54,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Apache_Spark_logo.svg",
+      "title": "Apache Spark",
+      "description": "Apache Spark is an open-source unified analytics engine for large-scale data processing. It provides high-speed data processing and supports various data analysis tasks such as batch processing, streaming, and machine learning.",
+      "tags": [
+        "Apache Spark",
+        "Data Processing",
+        "Big Data",
+        "Analytics",
+        "Machine Learning"
+      ],
+      "detail": "`Apache Spark is an open-source analytics engine designed for large-scale data processing. It provides high-speed data processing capabilities and supports a range of data analysis tasks, including batch processing, streaming, and machine learning. Spark's in-memory computing and optimized execution engine enable fast and efficient data processing, making it a popular choice for big data analytics and complex data workflows.`"
+    },
+    [
+      {
+        "id": 55,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nginx_logo.svg",
+        "title": "Nginx",
+        "description": "Nginx is a high-performance web server and reverse proxy server that also provides load balancing and HTTP caching capabilities.",
+        "tags": [
+          "Nginx",
+          "Web Server",
+          "Reverse Proxy",
+          "Load Balancing",
+          "Caching"
+        ],
+        "detail": "`Nginx is a powerful web server and reverse proxy server known for its high performance and scalability. It is widely used to serve static content, handle HTTP requests, and manage load balancing across multiple servers. Nginx also offers advanced features such as caching, SSL termination, and rate limiting, making it a popular choice for high-traffic websites and applications.`"
+      },
+      {
+        "id": 56,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Next.js_logo.svg",
+        "title": "Next.js",
+        "description": "Next.js is a React framework that enables server-side rendering and static site generation. It provides an easy way to build optimized and performant React applications.",
+        "tags": [
+          "Next.js",
+          "React",
+          "Framework",
+          "Server-side Rendering",
+          "Static Site Generation"
+        ],
+        "detail": "`Next.js is a React framework that facilitates server-side rendering (SSR) and static site generation (SSG). It simplifies the development of optimized and high-performance React applications by providing built-in support for features such as routing, code splitting, and automatic static optimization. Next.js is known for its ease of use and ability to improve the performance and SEO of React applications.`"
+      },
+      {
+        "id": 57,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Node.js_logo.svg",
+        "title": "Node.js",
+        "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows developers to build scalable and high-performance server-side applications.",
+        "tags": [
+          "Node.js",
+          "JavaScript",
+          "Server-side",
+          "Runtime",
+          "Scalability"
+        ],
+        "detail": "`Node.js is an open-source JavaScript runtime environment built on Chrome's V8 engine. It enables developers to build scalable and high-performance server-side applications using JavaScript. Node.js is known for its event-driven, non-blocking I/O model, which makes it suitable for building real-time applications and handling a large number of concurrent connections.`"
+      },
+      {
+        "id": 58,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Redis_Logo.svg",
+        "title": "Redis",
+        "description": "Redis is an in-memory data structure store used as a database, cache, and message broker. It provides high-speed access to data and supports various data structures.",
+        "tags": [
+          "Redis",
+          "In-memory Database",
+          "Cache",
+          "Data Structures",
+          "Performance"
+        ],
+        "detail": "`Redis is an open-source, in-memory data structure store that functions as a database, cache, and message broker. It offers high-speed data access and supports various data structures such as strings, hashes, lists, and sets. Redis is widely used for caching, session management, and real-time analytics due to its low latency and high performance.`"
+      },
+      {
+        "id": 59,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Apache_MyFaces_logo.svg",
+        "title": "Apache MyFaces",
+        "description": "Apache MyFaces is an open-source JavaServer Faces (JSF) implementation that provides a framework for building web-based user interfaces in Java.",
+        "tags": [
+          "Apache MyFaces",
+          "JSF",
+          "Java",
+          "Web Framework",
+          "UI"
+        ],
+        "detail": "`Apache MyFaces is an open-source implementation of the JavaServer Faces (JSF) specification. It provides a framework for building component-based web user interfaces in Java. MyFaces supports various JSF features such as reusable components, event handling, and validation, making it a useful tool for developing web applications in Java.`"
+      },
+      {
+        "id": 60,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/72/Apache_Cassandra_logo.svg",
+        "title": "Apache Cassandra",
+        "description": "Apache Cassandra is a distributed NoSQL database designed for handling large amounts of data across many commodity servers without a single point of failure.",
+        "tags": [
+          "Apache Cassandra",
+          "NoSQL",
+          "Database",
+          "Distributed",
+          "Scalability"
+        ],
+        "detail": "`Apache Cassandra is a highly scalable, distributed NoSQL database designed to handle large volumes of data across multiple nodes. It offers high availability and fault tolerance without a single point of failure, making it suitable for applications requiring high write and read throughput. Cassandra's distributed architecture ensures data replication and partitioning across a cluster of servers.`"
+      },
+      {
+        "id": 61,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Azure_Logo.svg",
+        "title": "Microsoft Azure",
+        "description": "Microsoft Azure is a cloud computing service created by Microsoft that provides a range of cloud services, including those for computing, analytics, storage, and networking.",
+        "tags": [
+          "Microsoft Azure",
+          "Cloud Computing",
+          "Infrastructure",
+          "Services",
+          "Networking"
+        ],
+        "detail": "`Microsoft Azure is a cloud computing platform and service offered by Microsoft. It provides a comprehensive set of cloud services, including virtual machines, databases, analytics, and networking. Azure allows businesses to build, deploy, and manage applications and services through a global network of data centers. Its broad range of services supports various computing needs and integrates with existing Microsoft products.`"
+      },
+      {
+        "id": 62,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Apache_Solr_logo.png",
+        "title": "Apache Solr",
+        "description": "Apache Solr is an open-source search platform built on Apache Lucene. It provides full-text search capabilities and faceted search features for large-scale data sets.",
+        "tags": [
+          "Apache Solr",
+          "Search Engine",
+          "Full-text Search",
+          "Faceted Search",
+          "Data Analysis"
+        ],
+        "detail": "`Apache Solr is an open-source search platform based on Apache Lucene. It offers powerful full-text search capabilities and advanced features such as faceted search, filtering, and distributed search. Solr is designed for handling large-scale data sets and providing high-performance search and indexing functionalities, making it suitable for applications requiring robust search and data analysis.`"
+      },
+      {
+        "id": 63,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Apache_HBase_logo.svg",
+        "title": "Apache HBase",
+        "description": "Apache HBase is an open-source, distributed, and scalable NoSQL database built on top of the Hadoop file system. It provides real-time read/write access to large datasets.",
+        "tags": [
+          "Apache HBase",
+          "NoSQL",
+          "Database",
+          "Hadoop",
+          "Scalability"
+        ],
+        "detail": "`Apache HBase is a distributed, scalable NoSQL database designed for real-time read/write access to large datasets. Built on top of the Hadoop file system, HBase provides random access to data and supports large-scale data storage. It is commonly used for applications that require high throughput and low latency access to big data.`"
+      },
+      {
+        "id": 64,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Elastic_Logo.svg",
+        "title": "Elastic Stack",
+        "description": "Elastic Stack, formerly known as ELK Stack, is a set of open-source tools for search and data analysis, including Elasticsearch, Logstash, and Kibana.",
+        "tags": [
+          "Elastic Stack",
+          "Search",
+          "Analytics",
+          "Elasticsearch",
+          "Logstash",
+          "Kibana"
+        ],
+        "detail": "`The Elastic Stack, also known as ELK Stack, is a collection of open-source tools for search, logging, and data analysis. It includes Elasticsearch for search and analytics, Logstash for data ingestion and processing, and Kibana for visualization and exploration. The Elastic Stack enables users to collect, index, search, and analyze large volumes of data in real-time.`"
+      },
+      {
+        "id": 65,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/MongoDB_Logo.svg",
+        "title": "MongoDB",
+        "description": "MongoDB is a NoSQL database that uses a document-oriented data model to store data in flexible, JSON-like documents. It is designed for high availability and scalability.",
+        "tags": [
+          "MongoDB",
+          "NoSQL",
+          "Document Store",
+          "Database",
+          "Scalability"
+        ],
+        "detail": "`MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It uses a document-oriented data model to provide high availability, scalability, and easy replication. MongoDB is suitable for applications requiring dynamic schemas and large-scale data storage, offering powerful query capabilities and robust performance.`"
+      },
+      {
+        "id": 66,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Apache_Kafka_logo.svg",
+        "title": "Apache Kafka",
+        "description": "Apache Kafka is an open-source stream-processing platform designed for high-throughput and fault-tolerant data streaming. It is used for building real-time data pipelines and streaming applications.",
+        "tags": [
+          "Apache Kafka",
+          "Stream Processing",
+          "Data Streaming",
+          "High Throughput",
+          "Fault Tolerance"
+        ],
+        "detail": "`Apache Kafka is an open-source stream-processing platform that provides high-throughput, fault-tolerant data streaming capabilities. It is designed to handle large volumes of real-time data and is commonly used for building data pipelines and streaming applications. Kafka's distributed architecture ensures reliability and scalability in processing and transporting data.`"
+      },
+      {
+        "id": 67,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kubernetes_logo.svg",
+        "title": "Kubernetes",
+        "description": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
+        "tags": [
+          "Kubernetes",
+          "Container Orchestration",
+          "Automation",
+          "Scaling",
+          "Management"
+        ],
+        "detail": "`Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It provides a robust system for orchestrating containers, ensuring high availability, and managing application lifecycles. Kubernetes supports various container runtimes and integrates with cloud-native technologies to streamline container operations.`"
+      },
+      {
+        "id": 68,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Apache_Tomcat_logo.svg",
+        "title": "Apache Tomcat",
+        "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, and Java Expression Language technologies. It provides a platform for running Java-based web applications.",
+        "tags": [
+          "Apache Tomcat",
+          "Java",
+          "Servlet",
+          "JavaServer Pages",
+          "Web Applications"
+        ],
+        "detail": "`Apache Tomcat is an open-source application server that implements Java Servlet, JavaServer Pages (JSP), and Java Expression Language (EL) technologies. It provides a robust platform for running Java-based web applications and supports features such as session management, security, and connection pooling.`"
+      },
+      {
+        "id": 69,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Apache_Maven_logo.svg",
+        "title": "Apache Maven",
+        "description": "Apache Maven is a build automation and project management tool for Java projects. It uses an XML file to describe the project's build process and dependencies.",
+        "tags": [
+          "Apache Maven",
+          "Build Automation",
+          "Project Management",
+          "Java",
+          "Dependencies"
+        ],
+        "detail": "`Apache Maven is a build automation tool primarily used for Java projects. It uses an XML file called `pom.xml` to define the project's structure, dependencies, and build process. Maven simplifies project management by automating tasks such as compilation, testing, packaging, and deployment, making it easier to manage complex Java applications.`"
+      },
+      {
+        "id": 70,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/16/Apache_Hive_logo.svg",
+        "title": "Apache Hive",
+        "description": "Apache Hive is a data warehouse infrastructure built on top of Hadoop that provides data summarization, query, and analysis capabilities using a SQL-like language.",
+        "tags": [
+          "Apache Hive",
+          "Data Warehouse",
+          "Hadoop",
+          "SQL",
+          "Data Analysis"
+        ],
+        "detail": "`Apache Hive is a data warehouse infrastructure built on top of Hadoop. It provides a SQL-like query language for data summarization, querying, and analysis, making it easier for users to work with large-scale data stored in Hadoop's HDFS. Hive translates queries into MapReduce jobs, enabling efficient processing of big data.`"
+      },
+      {
+        "id": 71,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/37/Apache_ActiveMQ_logo.svg",
+        "title": "Apache ActiveMQ",
+        "description": "Apache ActiveMQ is an open-source message broker that supports various messaging protocols and provides reliable communication between distributed systems.",
+        "tags": [
+          "Apache ActiveMQ",
+          "Message Broker",
+          "Messaging Protocols",
+          "Distributed Systems",
+          "Communication"
+        ],
+        "detail": "`Apache ActiveMQ is a popular open-source message broker that supports a variety of messaging protocols, including JMS, MQTT, and AMQP. It enables reliable communication between distributed systems by providing features such as message persistence, transactions, and pub/sub messaging. ActiveMQ is used for integrating and decoupling components in complex applications.`"
+      },
+      {
+        "id": 72,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Apache_Atlas_logo.svg",
+        "title": "Apache Atlas",
+        "description": "Apache Atlas is an open-source data governance and metadata management tool for managing and analyzing metadata in big data environments.",
+        "tags": [
+          "Apache Atlas",
+          "Data Governance",
+          "Metadata Management",
+          "Big Data",
+          "Compliance"
+        ],
+        "detail": "`Apache Atlas is an open-source tool for data governance and metadata management in big data environments. It provides capabilities for managing metadata, defining data classifications, and ensuring data compliance. Atlas helps organizations understand and manage their data assets, lineage, and policies, facilitating better data governance and compliance.`"
+      },
+      {
+        "id": 73,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Apache_Storm_logo.svg",
+        "title": "Apache Storm",
+        "description": "Apache Storm is a distributed real-time computation system for processing large streams of data. It supports complex event processing and real-time analytics.",
+        "tags": [
+          "Apache Storm",
+          "Real-time Processing",
+          "Data Streams",
+          "Complex Event Processing",
+          "Analytics"
+        ],
+        "detail": "`Apache Storm is a distributed real-time computation system designed to process large volumes of data streams. It enables complex event processing and real-time analytics by providing a scalable and fault-tolerant platform for handling continuous data flows. Storm is commonly used in applications that require low-latency processing and real-time insights.`"
+      },
+      {
+        "id": 74,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apache_Camel_logo.svg",
+        "title": "Apache Camel",
+        "description": "Apache Camel is an open-source integration framework that provides a standardized way to integrate various systems and applications using enterprise integration patterns.",
+        "tags": [
+          "Apache Camel",
+          "Integration Framework",
+          "Enterprise Integration Patterns",
+          "Messaging",
+          "Routing"
+        ],
+        "detail": "`Apache Camel is an open-source integration framework that facilitates the integration of different systems and applications using enterprise integration patterns. It provides a standardized approach to routing, transforming, and mediating messages between disparate systems. Camel supports a wide range of protocols and data formats, making it suitable for complex integration scenarios.`"
+      },
+      {
+        "id": 75,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/27/Apache_Sling_logo.svg",
+        "title": "Apache Sling",
+        "description": "Apache Sling is a framework for developing web applications based on the Java Content Repository (JCR). It provides a flexible way to build content-centric applications.",
+        "tags": [
+          "Apache Sling",
+          "Web Application Framework",
+          "JCR",
+          "Content Management",
+          "Java"
+        ],
+        "detail": "`Apache Sling is a web application framework designed to work with the Java Content Repository (JCR). It provides a flexible and modular approach to building content-centric applications by leveraging JCR's hierarchical content model. Sling simplifies the development of web applications and content management systems by using a component-based architecture.`"
+      },
+      {
+        "id": 76,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apache_Elasticsearch_logo.svg",
+        "title": "Elasticsearch",
+        "description": "Elasticsearch is an open-source search and analytics engine built on Apache Lucene. It provides full-text search, structured search, and analytics capabilities for large-scale data.",
+        "tags": [
+          "Elasticsearch",
+          "Search Engine",
+          "Analytics",
+          "Full-text Search",
+          "Data Analysis"
+        ],
+        "detail": "`Elasticsearch is an open-source search and analytics engine that is built on top of Apache Lucene. It provides powerful full-text search capabilities, structured search, and real-time analytics for large-scale data. Elasticsearch is widely used for applications requiring fast search and indexing, and it is a core component of the Elastic Stack.`"
+      },
+      {
+        "id": 77,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Apache_Sqoop_logo.svg",
+        "title": "Apache Sqoop",
+        "description": "Apache Sqoop is a tool designed for efficiently transferring data between Hadoop and relational databases. It supports both import and export operations.",
+        "tags": [
+          "Apache Sqoop",
+          "Data Transfer",
+          "Hadoop",
+          "Relational Databases",
+          "ETL"
+        ],
+        "detail": "`Apache Sqoop is a tool for efficiently transferring data between Hadoop and relational databases. It supports both import and export operations, making it easier to integrate data stored in relational databases with Hadoop's distributed processing capabilities. Sqoop is commonly used for data migration and ETL (extract, transform, load) processes.`"
+      },
+      {
+        "id": 78,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Apache_Spark_logo.svg",
+        "title": "Apache Spark",
+        "description": "Apache Spark is an open-source unified analytics engine for large-scale data processing. It supports batch and stream processing, and provides high-speed data analysis.",
+        "tags": [
+          "Apache Spark",
+          "Data Processing",
+          "Batch Processing",
+          "Stream Processing",
+          "Analytics"
+        ],
+        "detail": "`Apache Spark is an open-source analytics engine designed for large-scale data processing. It supports both batch and stream processing and provides high-speed data analysis capabilities. Spark's in-memory computing and distributed processing features make it suitable for handling big data workloads and performing complex data transformations.`"
+      },
+      {
+        "id": 79,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/81/Apache_Kafka_logo.svg",
+        "title": "Apache Kafka Streams",
+        "description": "Apache Kafka Streams is a client library for building real-time, stream processing applications using Apache Kafka. It provides a high-level API for stream processing.",
+        "tags": [
+          "Apache Kafka Streams",
+          "Stream Processing",
+          "Real-time Processing",
+          "Kafka",
+          "Analytics"
+        ],
+        "detail": "`Apache Kafka Streams is a client library for building real-time stream processing applications with Apache Kafka. It provides a high-level API for processing and analyzing data streams, enabling developers to create complex event-driven applications. Kafka Streams is integrated with the Kafka ecosystem, offering powerful features for stream processing.`"
+      },
+      {
+        "id": 80,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Apache_Mahout_logo.svg",
+        "title": "Apache Mahout",
+        "description": "Apache Mahout is an open-source project designed for scalable machine learning and data mining. It provides algorithms for clustering, classification, and recommendation.",
+        "tags": [
+          "Apache Mahout",
+          "Machine Learning",
+          "Data Mining",
+          "Algorithms",
+          "Scalability"
+        ],
+        "detail": "`Apache Mahout is an open-source machine learning and data mining library designed for scalable data analysis. It provides a range of algorithms for clustering, classification, and recommendation, making it easier to build predictive models and analyze large datasets. Mahout is built to integrate with Hadoop and other big data technologies.`"
+      }
+    ]
+     
 ],
 
 "AboutData":[
