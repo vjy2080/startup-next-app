@@ -64,7 +64,7 @@ const Other = () => {
                 {selectedId && (
                     <motion.div
                         layoutId={selectedId}
-                        className="fixed inset-x-96 h-48 bg-white shadow-md rounded-lg p-6 z-50"
+                        className="fixed inset-x-96  bg-white shadow-md rounded-lg p-6 z-50"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -83,7 +83,7 @@ const Other = () => {
                                 <div className='flex justify-end'>
                                     <motion.button
                                         onClick={() => setSelectedId(null)}
-                                        className="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+                                        className="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 my-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
                                     >
                                         Close
                                     </motion.button>

@@ -68,8 +68,8 @@ const Home = () => {
           </div>
         }
         endMessage={
-          <p className='text-center bg-teal-800 text-white'>
-            <b>Yay! You have seen it all</b>
+          <p className='text-center text-teal-800 py-10 bg-gray-100'>
+            <b> 🥳 Yay! You have seen it all</b>
           </p>
         }
       >

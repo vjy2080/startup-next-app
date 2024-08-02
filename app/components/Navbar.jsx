@@ -19,10 +19,12 @@ const Navbar = () => {
 
     return (
         <nav className="sticky top-0 bg-teal-900 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <Link href="/" className="cursor-pointer flex items-center space-x-3 rtl:space-x-reverse">
-                    <Logo />
-                    {/* <span className="self-center text-2xl font-semibold whitespace-nowrap text-cyan-200">NextJS</span> */}
+                    <div className='h-10'>
+                        <Logo />
+                    </div>
+                    <span className=" text-2xl font-semibold whitespace-nowrap text-emerald-50">NextJS</span>
                 </Link>
 
                 <button
@@ -54,17 +56,26 @@ const Navbar = () => {
                         <li>
                             <DropdownMenuComponent />
                         </li>
-                        <li className='cursor-pointer'>
+                        <li className='cursor-pointer flex items-center'>
                             {
                                 !isAuthenticated ?
                                     <Link
                                         href="/login"
                                         className="block py-2 px-3 text-emerald-50"
-                                    >Login</Link>
+                                    >
+                                        <svg className="w-4 h-4 text-emerald-50 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
+                                        </svg>
+                                    </Link>
                                     : <button
                                         onClick={handleSignOut}
                                         className="block py-2 px-3 text-emerald-50"
-                                    >Signout</button>
+                                    >
+                                        {/* Signout */}
+                                        <svg className="w-4 h-4 text-red-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h11m0 0-4-4m4 4-4 4m-5 3H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h3" />
+                                        </svg>
+                                    </button>
                             }
                         </li>
                     </ul>

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { AuthProvider } from "@/context/AuthContext";
 import ReactQueryProvider from "./utils/ReactQueryProvider";
+import Footer from "./components/Footer";
 
 
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <AuthProvider>
             <Navbar />
             {children}
+            <Footer />
           </AuthProvider>
         </ReactQueryProvider>
       </body>

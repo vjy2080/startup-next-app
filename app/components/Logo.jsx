@@ -23,8 +23,8 @@ const Logo = () => {
             <motion.svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 256 256"
-                fill="#32f5ab"
-                stroke="#32f5ab"
+                fill="rgba(0, 51, 51, 1)"
+                stroke="rgba(0, 51, 51, 1)"
                 className="item"
                 initial="hidden"
                 animate="visible"
