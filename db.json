@@ -55,573 +55,579 @@
       "email": "vjy@qwe.com",
       "password": "qwer123",
       "confirmPassword": "qwer123"
+    },
+    {
+      "name": "User",
+      "email": "user@next.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "C3W2cNM"
     }
   ],
-  "OtherData" : [
+  "OtherData": [
     {
-        "id": "6",
-        "title": "The Birth of Next.js",
-        "subtitle": "Introduction to the framework",
-        "description": "Next.js was created by Vercel (formerly ZEIT) and officially released in October 2016, aiming to simplify the process of building React applications with server-side rendering.",
-        "category": "History and Evolution"
+      "id": "6",
+      "title": "The Birth of Next.js",
+      "subtitle": "Introduction to the framework",
+      "description": "Next.js was created by Vercel (formerly ZEIT) and officially released in October 2016, aiming to simplify the process of building React applications with server-side rendering.",
+      "category": "History and Evolution"
     },
     {
-        "id": "7",
-        "title": "Version 9: Introduction of API Routes",
-        "subtitle": "Enhancing backend capabilities",
-        "description": "In August 2019, Next.js 9 introduced API Routes, allowing developers to create backend endpoints directly in the Next.js project without needing a separate server.",
-        "category": "History and Evolution"
+      "id": "7",
+      "title": "Version 9: Introduction of API Routes",
+      "subtitle": "Enhancing backend capabilities",
+      "description": "In August 2019, Next.js 9 introduced API Routes, allowing developers to create backend endpoints directly in the Next.js project without needing a separate server.",
+      "category": "History and Evolution"
     },
     {
-        "id": "8",
-        "title": "Version 10: Image Optimization and Internationalized Routing",
-        "subtitle": "New features and global reach",
-        "description": "Next.js 10, released in October 2020, introduced built-in image optimization with the Image component and support for internationalized routing for multilingual applications.",
-        "category": "History and Evolution"
+      "id": "8",
+      "title": "Version 10: Image Optimization and Internationalized Routing",
+      "subtitle": "New features and global reach",
+      "description": "Next.js 10, released in October 2020, introduced built-in image optimization with the Image component and support for internationalized routing for multilingual applications.",
+      "category": "History and Evolution"
     },
     {
-        "id": "9",
-        "title": "Version 11: Performance Improvements and New Middleware",
-        "subtitle": "Enhancing performance and flexibility",
-        "description": "Next.js 11, released in June 2021, focused on performance improvements, including faster refresh times and the introduction of middleware for custom logic in requests.",
-        "category": "History and Evolution"
+      "id": "9",
+      "title": "Version 11: Performance Improvements and New Middleware",
+      "subtitle": "Enhancing performance and flexibility",
+      "description": "Next.js 11, released in June 2021, focused on performance improvements, including faster refresh times and the introduction of middleware for custom logic in requests.",
+      "category": "History and Evolution"
     },
     {
-        "id": "10",
-        "title": "Version 12: Edge Functions and React 18 Support",
-        "subtitle": "Advanced features and modern React",
-        "description": "Next.js 12, released in October 2021, introduced Edge Functions for running code at the edge of the network and added support for React 18 features like concurrent rendering.",
-        "category": "History and Evolution"
+      "id": "10",
+      "title": "Version 12: Edge Functions and React 18 Support",
+      "subtitle": "Advanced features and modern React",
+      "description": "Next.js 12, released in October 2021, introduced Edge Functions for running code at the edge of the network and added support for React 18 features like concurrent rendering.",
+      "category": "History and Evolution"
     },
     {
-        "id": "11",
-        "title": "E-commerce Website",
-        "subtitle": "Building a performant online store",
-        "description": "Use Next.js with SSR or SSG to build a fast and SEO-friendly e-commerce website, leveraging its capabilities for dynamic product pages and optimized loading.",
-        "category": "Different Scenarios"
+      "id": "11",
+      "title": "E-commerce Website",
+      "subtitle": "Building a performant online store",
+      "description": "Use Next.js with SSR or SSG to build a fast and SEO-friendly e-commerce website, leveraging its capabilities for dynamic product pages and optimized loading.",
+      "category": "Different Scenarios"
     },
     {
-        "id": "12",
-        "title": "Blog with Incremental Static Regeneration",
-        "subtitle": "Efficiently update blog content",
-        "description": "Build a blog using Next.js with ISR to update individual blog posts without redeploying the entire site, allowing for fresh content and improved performance.",
-        "category": "Different Scenarios"
+      "id": "12",
+      "title": "Blog with Incremental Static Regeneration",
+      "subtitle": "Efficiently update blog content",
+      "description": "Build a blog using Next.js with ISR to update individual blog posts without redeploying the entire site, allowing for fresh content and improved performance.",
+      "category": "Different Scenarios"
     },
     {
-        "id": "13",
-        "title": "Corporate Dashboard",
-        "subtitle": "Create a responsive and interactive dashboard",
-        "description": "Develop a corporate dashboard with Next.js, utilizing SSR for secure and fast server-side rendering of sensitive data and real-time updates.",
-        "category": "Different Scenarios"
+      "id": "13",
+      "title": "Corporate Dashboard",
+      "subtitle": "Create a responsive and interactive dashboard",
+      "description": "Develop a corporate dashboard with Next.js, utilizing SSR for secure and fast server-side rendering of sensitive data and real-time updates.",
+      "category": "Different Scenarios"
     },
     {
-        "id": "14",
-        "title": "Documentation Site",
-        "subtitle": "Efficiently manage and serve documentation",
-        "description": "Create a documentation site with Next.js using SSG for fast load times and a consistent user experience, enabling easy navigation and updates.",
-        "category": "Different Scenarios"
+      "id": "14",
+      "title": "Documentation Site",
+      "subtitle": "Efficiently manage and serve documentation",
+      "description": "Create a documentation site with Next.js using SSG for fast load times and a consistent user experience, enabling easy navigation and updates.",
+      "category": "Different Scenarios"
     },
     {
-        "id": "15",
-        "title": "Social Media Platform",
-        "subtitle": "Handle user-generated content and interactions",
-        "description": "Build a social media platform with Next.js by leveraging SSR for dynamic user-generated content and API Routes for handling user interactions and data.",
-        "category": "Different Scenarios"
+      "id": "15",
+      "title": "Social Media Platform",
+      "subtitle": "Handle user-generated content and interactions",
+      "description": "Build a social media platform with Next.js by leveraging SSR for dynamic user-generated content and API Routes for handling user interactions and data.",
+      "category": "Different Scenarios"
     },
     {
-        "id": "16",
-        "title": "Single Page Application (SPA)",
-        "subtitle": "Leverage client-side rendering",
-        "description": "Utilize Next.js for a Single Page Application by using client-side rendering, optimizing user experience with dynamic imports and client-side routing.",
-        "category": "Advanced Use Cases"
+      "id": "16",
+      "title": "Single Page Application (SPA)",
+      "subtitle": "Leverage client-side rendering",
+      "description": "Utilize Next.js for a Single Page Application by using client-side rendering, optimizing user experience with dynamic imports and client-side routing.",
+      "category": "Advanced Use Cases"
     },
     {
-        "id": "17",
-        "title": "Hybrid Application",
-        "subtitle": "Combine SSR, SSG, and CSR",
-        "description": "Create a hybrid application with Next.js that uses SSR for critical pages, SSG for static content, and CSR for interactive components, optimizing performance and user experience.",
-        "category": "Advanced Use Cases"
+      "id": "17",
+      "title": "Hybrid Application",
+      "subtitle": "Combine SSR, SSG, and CSR",
+      "description": "Create a hybrid application with Next.js that uses SSR for critical pages, SSG for static content, and CSR for interactive components, optimizing performance and user experience.",
+      "category": "Advanced Use Cases"
     },
     {
-        "id": "18",
-        "title": "Multitenant Application",
-        "subtitle": "Serve multiple user contexts",
-        "description": "Build a multitenant application with Next.js by using dynamic routing and API Routes to handle multiple user contexts and provide a tailored experience for each tenant.",
-        "category": "Advanced Use Cases"
+      "id": "18",
+      "title": "Multitenant Application",
+      "subtitle": "Serve multiple user contexts",
+      "description": "Build a multitenant application with Next.js by using dynamic routing and API Routes to handle multiple user contexts and provide a tailored experience for each tenant.",
+      "category": "Advanced Use Cases"
     },
     {
-        "id": "19",
-        "title": "Progressive Web App (PWA)",
-        "subtitle": "Enhance user experience with offline capabilities",
-        "description": "Transform your Next.js app into a Progressive Web App by implementing service workers and offline support, improving performance and user experience on mobile devices.",
-        "category": "Advanced Use Cases"
+      "id": "19",
+      "title": "Progressive Web App (PWA)",
+      "subtitle": "Enhance user experience with offline capabilities",
+      "description": "Transform your Next.js app into a Progressive Web App by implementing service workers and offline support, improving performance and user experience on mobile devices.",
+      "category": "Advanced Use Cases"
     },
     {
-        "id": "20",
-        "title": "Microservices Architecture",
-        "subtitle": "Integrate with microservices",
-        "description": "Develop a Next.js application that integrates with a microservices architecture, using API Routes to interact with various microservices and manage data flow.",
-        "category": "Advanced Use Cases"
+      "id": "20",
+      "title": "Microservices Architecture",
+      "subtitle": "Integrate with microservices",
+      "description": "Develop a Next.js application that integrates with a microservices architecture, using API Routes to interact with various microservices and manage data flow.",
+      "category": "Advanced Use Cases"
     },
     {
-        "id": "1",
-        "title": "Server-side Rendering (SSR) and Static Site Generation (SSG)",
-        "subtitle": "Improve SEO and performance",
-        "description": "Server-side Rendering (SSR) generates HTML on each request, while Static Site Generation (SSG) builds pages at build time. Both methods enhance SEO and performance.",
-        "category": "Core Concepts"
+      "id": "1",
+      "title": "Server-side Rendering (SSR) and Static Site Generation (SSG)",
+      "subtitle": "Improve SEO and performance",
+      "description": "Server-side Rendering (SSR) generates HTML on each request, while Static Site Generation (SSG) builds pages at build time. Both methods enhance SEO and performance.",
+      "category": "Core Concepts"
     },
     {
-        "id": "2",
-        "title": "Incremental Static Regeneration (ISR)",
-        "subtitle": "Update static content without rebuilding",
-        "description": "ISR allows you to update static pages after the site has been built and deployed. This method provides a way to regenerate static content on-demand.",
-        "category": "Core Concepts"
+      "id": "2",
+      "title": "Incremental Static Regeneration (ISR)",
+      "subtitle": "Update static content without rebuilding",
+      "description": "ISR allows you to update static pages after the site has been built and deployed. This method provides a way to regenerate static content on-demand.",
+      "category": "Core Concepts"
     },
     {
-        "id": "3",
-        "title": "API Routes",
-        "subtitle": "Create backend functionality within your app",
-        "description": "API Routes enable you to build API endpoints within your Next.js application, allowing you to handle backend logic and serve data from your server.",
-        "category": "Core Concepts"
+      "id": "3",
+      "title": "API Routes",
+      "subtitle": "Create backend functionality within your app",
+      "description": "API Routes enable you to build API endpoints within your Next.js application, allowing you to handle backend logic and serve data from your server.",
+      "category": "Core Concepts"
     },
     {
-        "id": "4",
-        "title": "Dynamic Routing",
-        "subtitle": "Create dynamic URLs for your pages",
-        "description": "Dynamic Routing lets you create pages with dynamic paths by using file names with brackets, enabling personalized and variable content.",
-        "category": "Core Concepts"
+      "id": "4",
+      "title": "Dynamic Routing",
+      "subtitle": "Create dynamic URLs for your pages",
+      "description": "Dynamic Routing lets you create pages with dynamic paths by using file names with brackets, enabling personalized and variable content.",
+      "category": "Core Concepts"
     },
     {
-        "id": "5",
-        "title": "Static and Dynamic Imports",
-        "subtitle": "Optimize loading and performance",
-        "description": "Static imports are resolved at build time, while dynamic imports are resolved at runtime, allowing you to load components and libraries only when needed.",
-        "category": "Core Concepts"
+      "id": "5",
+      "title": "Static and Dynamic Imports",
+      "subtitle": "Optimize loading and performance",
+      "description": "Static imports are resolved at build time, while dynamic imports are resolved at runtime, allowing you to load components and libraries only when needed.",
+      "category": "Core Concepts"
     }
-],
-"HomeData" :
-[
-  {
-     "id":1,
-     "imageURL":"https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
-     "title":"Next.js with Tailwind CSS",
-     "description":"Next.js is a React framework that provides server-side rendering, routing, and other powerful features out of the box. Tailwind CSS is a utility-first CSS framework that helps you quickly build custom designs without writing CSS. Together, they enable rapid development of modern web applications.",
-     "tags":[
+  ],
+  "HomeData": [
+    {
+      "id": 1,
+      "imageURL": "https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
+      "title": "Next.js with Tailwind CSS",
+      "description": "Next.js is a React framework that provides server-side rendering, routing, and other powerful features out of the box. Tailwind CSS is a utility-first CSS framework that helps you quickly build custom designs without writing CSS. Together, they enable rapid development of modern web applications.",
+      "tags": [
         "Next.js",
         "Tailwind CSS",
         "React",
         "SSR",
         "Utility-first CSS"
-     ],
-     "detail":"`Next.js with Tailwind CSS brings together the power of server-side rendering and utility-first CSS. It allows developers to create modern web applications with ease. Next.js simplifies React development by offering features like SSR and static generation. It's great for building both static and dynamic web applications. Tailwind CSS provides a customizable, utility-first approach to CSS, enabling developers to style applications efficiently without writing custom CSS.`"
-  },
-  {
-     "id":2,
-     "imageURL":"https://miro.medium.com/v2/resize:fit:1400/1*FA4XLQhKWhDFPu752UAIcg.jpeg",
-     "title":"Next.js",
-     "description":"Next.js is a popular React framework that allows you to build static and dynamic websites and web applications. It simplifies the process of creating React applications by providing a great developer experience and many useful features.",
-     "tags":[
+      ],
+      "detail": "`Next.js with Tailwind CSS brings together the power of server-side rendering and utility-first CSS. It allows developers to create modern web applications with ease. Next.js simplifies React development by offering features like SSR and static generation. It's great for building both static and dynamic web applications. Tailwind CSS provides a customizable, utility-first approach to CSS, enabling developers to style applications efficiently without writing custom CSS.`"
+    },
+    {
+      "id": 2,
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1400/1*FA4XLQhKWhDFPu752UAIcg.jpeg",
+      "title": "Next.js",
+      "description": "Next.js is a popular React framework that allows you to build static and dynamic websites and web applications. It simplifies the process of creating React applications by providing a great developer experience and many useful features.",
+      "tags": [
         "Next.js",
         "React",
         "SSR",
         "Static Generation",
         "Dynamic Routing"
-     ],
-     "detail":"`Next.js simplifies React development by offering features like SSR and static generation. It's great for building both static and dynamic web applications. With Next.js, you can create optimized web applications that deliver content faster and more efficiently. The framework supports server-side rendering, enhancing SEO and providing a better user experience. Next.js also facilitates dynamic routing, allowing you to handle complex navigation in your applications.`"
-  },
-  {
-     "id":3,
-     "imageURL":"https://d2ms8rpfqc4h24.cloudfront.net/Feature_Image_58420a4230.jpg",
-     "title":"Tailwind CSS",
-     "description":"Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build designs without opinionated styles. It offers a set of utility classes that you can use to style your applications directly in the HTML.",
-     "tags":[
+      ],
+      "detail": "`Next.js simplifies React development by offering features like SSR and static generation. It's great for building both static and dynamic web applications. With Next.js, you can create optimized web applications that deliver content faster and more efficiently. The framework supports server-side rendering, enhancing SEO and providing a better user experience. Next.js also facilitates dynamic routing, allowing you to handle complex navigation in your applications.`"
+    },
+    {
+      "id": 3,
+      "imageURL": "https://d2ms8rpfqc4h24.cloudfront.net/Feature_Image_58420a4230.jpg",
+      "title": "Tailwind CSS",
+      "description": "Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build designs without opinionated styles. It offers a set of utility classes that you can use to style your applications directly in the HTML.",
+      "tags": [
         "Tailwind CSS",
         "Utility-first CSS",
         "Responsive Design",
         "Customizable",
         "CSS Framework"
-     ],
-     "detail":"`Tailwind CSS provides a customizable, utility-first approach to CSS, enabling developers to style applications efficiently without writing custom CSS. It offers a wide range of utility classes that can be used directly in HTML to apply styling, speeding up the development process. Tailwind CSS is highly customizable, allowing developers to create unique designs without being restricted by predefined styles. The framework promotes a streamlined development workflow by focusing on utility classes and responsive design principles, ensuring applications look great on all devices.`"
-  },
-  {
-     "id":4,
-     "imageURL":"https://blog.logrocket.com/wp-content/uploads/2023/05/Structure-scalable-Next-js-project-architecture.png",
-     "title":"React",
-     "description":"React is a JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called \"components\". React is fast, scalable, and simple to learn.",
-     "tags":[
+      ],
+      "detail": "`Tailwind CSS provides a customizable, utility-first approach to CSS, enabling developers to style applications efficiently without writing custom CSS. It offers a wide range of utility classes that can be used directly in HTML to apply styling, speeding up the development process. Tailwind CSS is highly customizable, allowing developers to create unique designs without being restricted by predefined styles. The framework promotes a streamlined development workflow by focusing on utility classes and responsive design principles, ensuring applications look great on all devices.`"
+    },
+    {
+      "id": 4,
+      "imageURL": "https://blog.logrocket.com/wp-content/uploads/2023/05/Structure-scalable-Next-js-project-architecture.png",
+      "title": "React",
+      "description": "React is a JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called \"components\". React is fast, scalable, and simple to learn.",
+      "tags": [
         "React",
         "JavaScript",
         "Component-based",
         "Virtual DOM",
         "JSX"
-     ],
-     "detail":"`React is a powerful JavaScript library for building user interfaces. It allows developers to create reusable UI components that manage their own state, making it easier to build complex applications. React uses a virtual DOM to efficiently update the UI based on changes in data, improving performance and providing a seamless user experience. The library supports component-based architecture, promoting code reusability and maintainability. With JSX, developers can write HTML-like syntax within JavaScript, enhancing component readability and development efficiency. React is widely used in modern web development for its performance, flexibility, and large community support.`"
-  },
-  {
-     "id":5,
-     "imageURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe11EkbM3qw96kV8Ak45-GHJNrg-sseIPDzg&s",
-     "title":"Server-Side Rendering (SSR)",
-     "description":"Server-Side Rendering (SSR) refers to the technique of rendering web pages on the server rather than on the client. SSR improves SEO, initial page load performance, and is essential for certain use cases in web applications.",
-     "tags":[
+      ],
+      "detail": "`React is a powerful JavaScript library for building user interfaces. It allows developers to create reusable UI components that manage their own state, making it easier to build complex applications. React uses a virtual DOM to efficiently update the UI based on changes in data, improving performance and providing a seamless user experience. The library supports component-based architecture, promoting code reusability and maintainability. With JSX, developers can write HTML-like syntax within JavaScript, enhancing component readability and development efficiency. React is widely used in modern web development for its performance, flexibility, and large community support.`"
+    },
+    {
+      "id": 5,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe11EkbM3qw96kV8Ak45-GHJNrg-sseIPDzg&s",
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Server-Side Rendering (SSR) refers to the technique of rendering web pages on the server rather than on the client. SSR improves SEO, initial page load performance, and is essential for certain use cases in web applications.",
+      "tags": [
         "Server-Side Rendering",
         "Next.js",
         "React",
         "SEO",
         "Performance"
-     ],
-     "detail":"`Server-Side Rendering (SSR) improves web application performance and SEO by rendering pages on the server, enhancing initial load times and user experience. SSR is beneficial for applications that require content to be generated dynamically or need to be indexed by search engines. With SSR, web pages are pre-rendered on the server and sent to the client as fully rendered HTML, reducing client-side rendering and improving performance metrics. SSR is a key feature of frameworks like Next.js, enabling developers to build fast and SEO-friendly web applications.`"
-  },
-  {
-     "id":6,
-     "imageURL":"https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F29fxtt45c7xsd23h7c7k.png",
-     "title":"Static Site Generation (SSG)",
-     "description":"Static Site Generation (SSG) is a technique that generates HTML pages at build time. Next.js supports SSG, allowing you to pre-render pages and serve them as static files. This improves performance and reduces server load.",
-     "tags":[
+      ],
+      "detail": "`Server-Side Rendering (SSR) improves web application performance and SEO by rendering pages on the server, enhancing initial load times and user experience. SSR is beneficial for applications that require content to be generated dynamically or need to be indexed by search engines. With SSR, web pages are pre-rendered on the server and sent to the client as fully rendered HTML, reducing client-side rendering and improving performance metrics. SSR is a key feature of frameworks like Next.js, enabling developers to build fast and SEO-friendly web applications.`"
+    },
+    {
+      "id": 6,
+      "imageURL": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F29fxtt45c7xsd23h7c7k.png",
+      "title": "Static Site Generation (SSG)",
+      "description": "Static Site Generation (SSG) is a technique that generates HTML pages at build time. Next.js supports SSG, allowing you to pre-render pages and serve them as static files. This improves performance and reduces server load.",
+      "tags": [
         "Static Site Generation",
         "Next.js",
         "React",
         "Performance",
         "SEO"
-     ],
-     "detail":"`Static Site Generation (SSG) in Next.js pre-renders HTML pages at build time, boosting performance and reducing server load for improved scalability. SSG is ideal for content-focused websites that do not require real-time data updates. With SSG, web pages are generated statically during the build process, eliminating the need for server-side rendering on each request. This approach improves page load times and SEO rankings by delivering pre-rendered content to users instantly. Next.js simplifies SSG implementation with features like incremental static regeneration, allowing developers to update content without rebuilding the entire site.`"
-  },
-  {
-     "id":7,
-     "imageURL":"https://cdn.sanity.io/images/0mnqm898/production/a69bc704c69a0126bc00cbc7d5dd773797ac44b7-2240x1260.png",
-     "title":"Dynamic Routing",
-     "description":"Dynamic Routing is a feature provided by frameworks like Next.js that allows you to define routes based on your application’s data and render pages dynamically. It enhances flexibility and scalability in web applications.",
-     "tags":[
+      ],
+      "detail": "`Static Site Generation (SSG) in Next.js pre-renders HTML pages at build time, boosting performance and reducing server load for improved scalability. SSG is ideal for content-focused websites that do not require real-time data updates. With SSG, web pages are generated statically during the build process, eliminating the need for server-side rendering on each request. This approach improves page load times and SEO rankings by delivering pre-rendered content to users instantly. Next.js simplifies SSG implementation with features like incremental static regeneration, allowing developers to update content without rebuilding the entire site.`"
+    },
+    {
+      "id": 7,
+      "imageURL": "https://cdn.sanity.io/images/0mnqm898/production/a69bc704c69a0126bc00cbc7d5dd773797ac44b7-2240x1260.png",
+      "title": "Dynamic Routing",
+      "description": "Dynamic Routing is a feature provided by frameworks like Next.js that allows you to define routes based on your application’s data and render pages dynamically. It enhances flexibility and scalability in web applications.",
+      "tags": [
         "Dynamic Routing",
         "Next.js",
         "React",
         "Routing",
         "Flexibility"
-     ],
-     "detail":"`Dynamic Routing in Next.js enables developers to define flexible routes based on application data, enhancing scalability and user experience. Dynamic routing allows for dynamic content rendering based on user interactions and data fetching. It simplifies navigation management by enabling developers to define routes programmatically and handle complex routing scenarios efficiently. Next.js provides a robust routing system that supports client-side navigation and server-side rendering, ensuring seamless page transitions and improved performance. With dynamic routing, developers can build scalable web applications that deliver personalized content and interactive user experiences.`"
-  },
-  {
-     "id":8,
-     "imageURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2KQkUn5uLxeZSY8uRQF5OkODSLONhfB2AA&s",
-     "title":"Utility-first CSS",
-     "description":"Utility-first CSS is an approach where classes are used directly in HTML to apply styling. Tailwind CSS popularized this approach, offering a wide range of utility classes for rapid development without writing custom CSS.",
-     "tags":[
+      ],
+      "detail": "`Dynamic Routing in Next.js enables developers to define flexible routes based on application data, enhancing scalability and user experience. Dynamic routing allows for dynamic content rendering based on user interactions and data fetching. It simplifies navigation management by enabling developers to define routes programmatically and handle complex routing scenarios efficiently. Next.js provides a robust routing system that supports client-side navigation and server-side rendering, ensuring seamless page transitions and improved performance. With dynamic routing, developers can build scalable web applications that deliver personalized content and interactive user experiences.`"
+    },
+    {
+      "id": 8,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2KQkUn5uLxeZSY8uRQF5OkODSLONhfB2AA&s",
+      "title": "Utility-first CSS",
+      "description": "Utility-first CSS is an approach where classes are used directly in HTML to apply styling. Tailwind CSS popularized this approach, offering a wide range of utility classes for rapid development without writing custom CSS.",
+      "tags": [
         "Utility-first CSS",
         "Tailwind CSS",
         "Responsive Design",
         "Customization",
         "CSS Framework"
-     ],
-     "detail":"`Utility-first CSS simplifies styling by using classes directly in HTML, providing rapid development capabilities with Tailwind CSS's extensive utility classes. This approach streamlines the styling process by focusing on reusable utility classes that define specific styles and behaviors. Tailwind CSS offers a comprehensive set of utility classes for layout, typography, and responsive design, allowing developers to build responsive and customizable interfaces effortlessly. By leveraging utility-first CSS, developers can create consistent designs across different screen sizes and devices, improving the overall user experience. Tailwind CSS promotes a modular approach to styling, making it easier to maintain and scale projects while reducing CSS bloat and specificity issues.`"
-  },
-  {
-     "id":9,
-     "imageURL":"https://cdn.prod.website-files.com/64a6f67b79a80fd9ff31ca7a/65645bdc4978698bfab1e0c6_next%20js%20libraries.png",
-     "title":"Responsive Design",
-     "description":"Responsive Design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures a seamless user experience across desktops, tablets, and mobile devices.",
-     "tags":[
+      ],
+      "detail": "`Utility-first CSS simplifies styling by using classes directly in HTML, providing rapid development capabilities with Tailwind CSS's extensive utility classes. This approach streamlines the styling process by focusing on reusable utility classes that define specific styles and behaviors. Tailwind CSS offers a comprehensive set of utility classes for layout, typography, and responsive design, allowing developers to build responsive and customizable interfaces effortlessly. By leveraging utility-first CSS, developers can create consistent designs across different screen sizes and devices, improving the overall user experience. Tailwind CSS promotes a modular approach to styling, making it easier to maintain and scale projects while reducing CSS bloat and specificity issues.`"
+    },
+    {
+      "id": 9,
+      "imageURL": "https://cdn.prod.website-files.com/64a6f67b79a80fd9ff31ca7a/65645bdc4978698bfab1e0c6_next%20js%20libraries.png",
+      "title": "Responsive Design",
+      "description": "Responsive Design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures a seamless user experience across desktops, tablets, and mobile devices.",
+      "tags": [
         "Responsive Design",
         "CSS",
         "Mobile First",
         "User Experience",
         "Adaptive Design"
-     ],
-     "detail":"`Responsive Design ensures web pages adapt seamlessly across devices, providing a consistent user experience on desktops, tablets, and mobiles. It involves using flexible grids and layouts, CSS media queries, and responsive images to create a fluid design that scales appropriately to different screen sizes. By adopting a responsive design approach, developers can optimize user experience across all devices, improving accessibility and engagement. Responsive websites are essential for modern web development, as they cater to diverse user preferences and device capabilities.`"
-  },
-  {
-     "id":10,
-     "imageURL":"https://miro.medium.com/v2/resize:fit:1400/1*__f27S-qQF2CAASt5bOwqg.png",
-     "title":"CSS Frameworks",
-     "description":"CSS Frameworks are pre-written libraries that are used to provide a predefined structure for web page elements. They simplify the process of designing and styling web pages by providing reusable classes and components.",
-     "tags":[
+      ],
+      "detail": "`Responsive Design ensures web pages adapt seamlessly across devices, providing a consistent user experience on desktops, tablets, and mobiles. It involves using flexible grids and layouts, CSS media queries, and responsive images to create a fluid design that scales appropriately to different screen sizes. By adopting a responsive design approach, developers can optimize user experience across all devices, improving accessibility and engagement. Responsive websites are essential for modern web development, as they cater to diverse user preferences and device capabilities.`"
+    },
+    {
+      "id": 10,
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1400/1*__f27S-qQF2CAASt5bOwqg.png",
+      "title": "CSS Frameworks",
+      "description": "CSS Frameworks are pre-written libraries that are used to provide a predefined structure for web page elements. They simplify the process of designing and styling web pages by providing reusable classes and components.",
+      "tags": [
         "CSS Frameworks",
         "Bootstrap",
         "Tailwind CSS",
         "Foundation",
         "UI Components"
-     ],
-     "detail":"`CSS Frameworks like Bootstrap and Tailwind CSS simplify web development by providing reusable components and styles, streamlining the design process. These frameworks offer pre-written CSS and JavaScript components that developers can use to build responsive and visually appealing web interfaces. Bootstrap, for example, provides a grid system, typography, and form controls, making it easy to create consistent layouts and styles. Tailwind CSS, on the other hand, offers utility classes for customizing designs directly in HTML, reducing the need for custom CSS. By using CSS frameworks, developers can accelerate development time, ensure cross-browser compatibility, and focus on building functional web applications.`"
-  },
-  {
-     "id":11,
-     "imageURL":"https://i0.wp.com/tw.alphacamp.co/wp-content/uploads/2022/12/62c26f23691984dc6aa6b998_meta-image-2022-07-04T123525.142.jpg?fit=800%2C419&ssl=1",
-     "title":"React Hooks",
-     "description":"React Hooks are functions that let you use state and other React features without writing a class component. They enable you to reuse stateful logic across components, making it easier to manage complex UI logic.",
-     "tags":[
+      ],
+      "detail": "`CSS Frameworks like Bootstrap and Tailwind CSS simplify web development by providing reusable components and styles, streamlining the design process. These frameworks offer pre-written CSS and JavaScript components that developers can use to build responsive and visually appealing web interfaces. Bootstrap, for example, provides a grid system, typography, and form controls, making it easy to create consistent layouts and styles. Tailwind CSS, on the other hand, offers utility classes for customizing designs directly in HTML, reducing the need for custom CSS. By using CSS frameworks, developers can accelerate development time, ensure cross-browser compatibility, and focus on building functional web applications.`"
+    },
+    {
+      "id": 11,
+      "imageURL": "https://i0.wp.com/tw.alphacamp.co/wp-content/uploads/2022/12/62c26f23691984dc6aa6b998_meta-image-2022-07-04T123525.142.jpg?fit=800%2C419&ssl=1",
+      "title": "React Hooks",
+      "description": "React Hooks are functions that let you use state and other React features without writing a class component. They enable you to reuse stateful logic across components, making it easier to manage complex UI logic.",
+      "tags": [
         "React Hooks",
         "State Management",
         "Functional Components",
         "Custom Hooks",
         "React"
-     ],
-     "detail":"`React Hooks provide a simpler way to manage state and logic in React applications, improving code reusability and component encapsulation. They allow developers to use state and other React features without writing class components, promoting a functional programming style. React Hooks include useState for managing component state, useEffect for handling side effects, and custom hooks for encapsulating reusable logic. By leveraging React Hooks, developers can create cleaner and more maintainable code, reducing boilerplate and enhancing development efficiency. Hooks streamline the development of complex UI components by separating concerns and promoting reusability across different parts of an application.`"
-  },
-  {
-     "id":12,
-     "imageURL":"https://ik.imagekit.io/ably/ghost/prod/2021/06/jamstack-app-nuxt-strapi-netlify-ably.jpg?tr=w-1728,q-50",
-     "title":"JAMstack",
-     "description":"JAMstack is a modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup. It stands for JavaScript, APIs, and Markup and emphasizes performance, security, and scalability.",
-     "tags":[
+      ],
+      "detail": "`React Hooks provide a simpler way to manage state and logic in React applications, improving code reusability and component encapsulation. They allow developers to use state and other React features without writing class components, promoting a functional programming style. React Hooks include useState for managing component state, useEffect for handling side effects, and custom hooks for encapsulating reusable logic. By leveraging React Hooks, developers can create cleaner and more maintainable code, reducing boilerplate and enhancing development efficiency. Hooks streamline the development of complex UI components by separating concerns and promoting reusability across different parts of an application.`"
+    },
+    {
+      "id": 12,
+      "imageURL": "https://ik.imagekit.io/ably/ghost/prod/2021/06/jamstack-app-nuxt-strapi-netlify-ably.jpg?tr=w-1728,q-50",
+      "title": "JAMstack",
+      "description": "JAMstack is a modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup. It stands for JavaScript, APIs, and Markup and emphasizes performance, security, and scalability.",
+      "tags": [
         "JAMstack",
         "JavaScript",
         "APIs",
         "Markup",
         "Web Development"
-     ],
-     "detail":"`JAMstack architecture emphasizes performance and security by using client-side JavaScript, APIs, and prebuilt Markup to create scalable web applications. It stands for JavaScript, APIs, and Markup and is known for its fast load times, improved security, and simplified scaling. JAMstack promotes decoupling front-end and back-end components, enabling developers to use prebuilt services and APIs for dynamic functionalities. By leveraging serverless functions and content delivery networks (CDNs), JAMstack sites achieve high performance and reliability. This architecture is ideal for building websites that require frequent updates, scalable infrastructure, and seamless integration with third-party services.`"
-  },
-   {
-     "id": 13,
-     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg",
-     "title": "React State Management",
-     "description": "React State Management refers to the techniques and libraries used to manage the state of a React application. It is crucial for building dynamic and interactive web applications.",
-     "tags": [
-       "React",
-       "State Management",
-       "Redux",
-       "Context API",
-       "Recoil"
-     ],
-     "detail": "`React State Management is essential for building dynamic web applications. Techniques like Redux, Context API, and Recoil help manage and share state across components. Efficient state management ensures that the application responds correctly to user interactions and updates seamlessly. By using these tools, developers can simplify state handling, reduce bugs, and improve the overall maintainability of the code.`"
-   },
-   {
-     "id": 14,
-     "imageURL": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
-     "title": "React Router",
-     "description": "React Router is a standard library for routing in React. It enables navigation among views of various components in a React application, allowing for dynamic routing and navigation.",
-     "tags": [
-       "React Router",
-       "Routing",
-       "Navigation",
-       "Single Page Application",
-       "Dynamic Routing"
-     ],
-     "detail": "`React Router facilitates navigation within React applications, allowing for dynamic routing and a seamless user experience. It provides a declarative way to handle routes, making it easier to manage complex navigation scenarios. With features like nested routes and route parameters, React Router enhances the flexibility and scalability of React applications.`"
-   },
-   {
-     "id": 15,
-     "imageURL": "https://i.ytimg.com/vi/DXxt4oIAI4Y/hqdefault.jpg",
-     "title": "CSS Grid",
-     "description": "CSS Grid is a powerful layout system available in CSS. It provides a grid-based layout system, offering a flexible and efficient way to create complex web designs.",
-     "tags": [
-       "CSS Grid",
-       "Layout",
-       "Responsive Design",
-       "Web Design",
-       "CSS"
-     ],
-     "detail": "`CSS Grid offers a powerful and flexible layout system for creating complex web designs. It allows developers to create grid-based layouts with rows and columns, making it easy to align and position elements on a page. CSS Grid supports responsive design, ensuring that layouts adapt to different screen sizes and devices. By using CSS Grid, developers can build modern and visually appealing web interfaces efficiently.`"
-   },
-   {
-     "id": 16,
-     "imageURL": "https://media.licdn.com/dms/image/D4D12AQFQKRgZStlh3A/article-cover_image-shrink_720_1280/0/1694236782074?e=2147483647&v=beta&t=vnn6k94P3y13BUIgwgCTc-vZbDCTuOJePSIPrPGbCpA",
-     "title": "GraphQL",
-     "description": "GraphQL is a query language for APIs and a runtime for executing those queries. It provides a more efficient and powerful alternative to REST by allowing clients to request only the data they need.",
-     "tags": [
-       "GraphQL",
-       "API",
-       "Data Fetching",
-       "Efficiency",
-       "REST Alternative"
-     ],
-     "detail": "`GraphQL provides a more efficient way to interact with APIs by allowing clients to request only the data they need. It replaces REST by offering a flexible and powerful query language that enables clients to specify exactly what data they want. This approach reduces over-fetching and under-fetching of data, improving the performance and efficiency of web applications. GraphQL supports complex queries and real-time updates, making it ideal for modern web development.`"
-   },
-   {
-     "id": 17,
-     "imageURL": "https://www.getfishtank.com/-/media/v2/v2-blog/what-is-a-headless-cms/headless-cms.ashx",
-     "title": "Headless CMS",
-     "description": "A Headless CMS is a content management system that separates the back-end content management from the front-end presentation layer. This provides more flexibility and allows for the use of any front-end technology.",
-     "tags": [
-       "Headless CMS",
-       "Content Management",
-       "API",
-       "Flexibility",
-       "Front-end"
-     ],
-     "detail": "`Headless CMS offers a modern approach to content management by decoupling the back-end from the front-end. This separation provides developers with the flexibility to use any front-end technology while managing content via APIs. Headless CMS platforms like Strapi and Contentful allow for seamless integration with various frameworks and tools, enabling developers to build scalable and customized web applications. By using a Headless CMS, content can be delivered across multiple channels, including web, mobile, and IoT devices.`"
-   },
-   {
-     "id": 18,
-     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-     "title": "Component Libraries",
-     "description": "Component Libraries like Material-UI and Ant Design provide pre-built UI components that help streamline the development process and ensure design consistency across applications.",
-     "tags": [
-       "Component Libraries",
-       "Material-UI",
-       "Ant Design",
-       "UI Components",
-       "Design Consistency"
-     ],
-     "detail": "`Component Libraries offer a collection of pre-built UI components that help developers build consistent and visually appealing interfaces quickly. Libraries like Material-UI and Ant Design provide a wide range of customizable components that adhere to design guidelines and best practices. By using these libraries, developers can speed up the development process, reduce code duplication, and ensure design consistency across different parts of an application. Component Libraries also come with built-in theming capabilities, making it easy to create a cohesive look and feel.`"
-   },
-   {
-     "id": 19,
-     "imageURL": "https://miro.medium.com/v2/resize:fit:6000/1*qv4SY2tovG2mf1uDEzbA2A.jpeg",
-     "title": "Redux",
-     "description": "Redux is a predictable state container for JavaScript apps, often used with React. It helps manage the state of an application in a consistent way, making it easier to debug and test.",
-     "tags": [
-       "Redux",
-       "State Management",
-       "React",
-       "JavaScript",
-       "Predictable"
-     ],
-     "detail": "`Redux provides a predictable state container for JavaScript applications, making state management consistent and easier to debug. It is commonly used with React to handle complex state logic and ensure that the application state is predictable and centralized. Redux uses actions and reducers to update the state, following a strict unidirectional data flow. This approach simplifies state management, improves code maintainability, and makes it easier to implement features like undo/redo and time-travel debugging.`"
-   },
-   {
-     "id": 20,
-     "imageURL": "https://www.tatvasoft.com/blog/wp-content/uploads/2020/05/Serverless-An-Emerging-Software-Architecture.jpg",
-     "title": "Serverless Architecture",
-     "description": "Serverless Architecture is a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. It allows developers to build and run applications without managing server infrastructure.",
-     "tags": [
-       "Serverless Architecture",
-       "Cloud Computing",
-       "Scalability",
-       "AWS Lambda",
-       "Function as a Service"
-     ],
-     "detail": "`Serverless Architecture allows developers to build and run applications without managing server infrastructure. The cloud provider automatically handles the allocation and provisioning of servers, enabling developers to focus on writing code. This approach offers scalability, reduced operational costs, and faster time to market. Serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions support event-driven computing, where code is executed in response to events, making it ideal for microservices and real-time applications.`"
-   },
-   {
-     "id": 21,
-     "imageURL": "https://media.licdn.com/dms/image/D5612AQFyNUX3XiNmFg/article-cover_image-shrink_720_1280/0/1685942878812?e=2147483647&v=beta&t=ZNLVG0S4u2EpEL996LxU6p5EngtVUUoDfyY4RF8gsUY",
-     "title": "Continuous Integration and Continuous Deployment (CI/CD)",
-     "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. It enables rapid and reliable delivery of applications.",
-     "tags": [
-       "CI/CD",
-       "Continuous Integration",
-       "Continuous Deployment",
-       "Automation",
-       "DevOps"
-     ],
-     "detail": "`CI/CD practices involve continuous integration and continuous deployment, enabling rapid and reliable delivery of applications. CI/CD pipelines automate the process of integrating code changes, running tests, and deploying applications, ensuring that updates are released frequently and consistently. By adopting CI/CD, development teams can reduce manual errors, accelerate the release cycle, and improve collaboration. Tools like Jenkins, CircleCI, and GitHub Actions facilitate the implementation of CI/CD pipelines, promoting DevOps practices and improving overall software quality.`"
-   },
-   {
-     "id": 22,
-     "imageURL": "https://www.svgrepo.com/show/353985/rest-api.svg",
-     "title": "RESTful APIs",
-     "description": "RESTful APIs are web services that follow the principles of REST (Representational State Transfer). They use HTTP methods to interact with resources, providing a simple and scalable way to build APIs.",
-     "tags": [
-       "RESTful APIs",
-       "HTTP",
-       "Web Services",
-       "Scalability",
-       "Resources"
-     ],
-     "detail": "`RESTful APIs provide a scalable and simple way to build web services by following the principles of REST (Representational State Transfer). They use standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources, making them easy to use and integrate. RESTful APIs support stateless communication, meaning each request contains all the information needed to process it. This approach ensures scalability, as servers can handle multiple requests independently. RESTful APIs are widely used in web development for creating CRUD (Create, Read, Update, Delete) operations and enabling communication between client and server applications.`"
-   },
-   {
-     "id": 23,
-     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubernetes_logo_without_workmark.svg",
-     "title": "Kubernetes",
-     "description": "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It provides a robust framework for running distributed systems resiliently.",
-     "tags": [
-       "Kubernetes",
-       "Containers",
-       "Orchestration",
-       "Scaling",
-       "Distributed Systems"
-     ],
-     "detail": "`Kubernetes is an open-source platform that automates the deployment, scaling, and operation of application containers. It provides a robust framework for running distributed systems resiliently, ensuring that applications are highly available and scalable. Kubernetes manages containerized applications across a cluster of machines, handling tasks such as load balancing, service discovery, and resource allocation. By using Kubernetes, developers can deploy and manage containerized applications efficiently, improving the scalability and reliability of their systems.`"
-   },
-   {
-     "id": 24,
-     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-     "title": "Express.js",
-     "description": "Express.js is a minimal and flexible Node.js web application framework. It provides a robust set of features for building web and mobile applications, making it a popular choice for server-side development.",
-     "tags": [
-       "Express.js",
-       "Node.js",
-       "Web Framework",
-       "Server-side",
-       "JavaScript"
-     ],
-     "detail": "`Express.js is a minimal and flexible web application framework for Node.js, offering a robust set of features for building web and mobile applications. It simplifies server-side development by providing a range of middleware and routing capabilities. Express.js supports RESTful APIs, making it easy to create endpoints for CRUD operations. Its flexibility and simplicity make it a popular choice for building server-side applications, enabling developers to focus on writing business logic and handling requests and responses efficiently.`"
-   },
-   {
-     "id": 25,
-     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Bootstrap_logo.svg",
-     "title": "Bootstrap",
-     "description": "Bootstrap is a popular front-end framework for building responsive, mobile-first websites. It includes pre-designed UI components and utility classes, helping developers create modern web interfaces quickly.",
-     "tags": [
-       "Bootstrap",
-       "Front-end Framework",
-       "Responsive Design",
-       "UI Components",
-       "CSS"
-     ],
-     "detail": "`Bootstrap is a widely used front-end framework that helps developers build responsive, mobile-first websites quickly and efficiently. It includes a collection of pre-designed UI components and utility classes, making it easy to create modern and consistent web interfaces. Bootstrap supports responsive design principles, ensuring that websites look and function well on different devices and screen sizes. By using Bootstrap, developers can save time on design and focus on implementing functionality, leveraging the framework's extensive documentation and community support.`"
-   },
-   {
-     "id": 26,
-     "imageURL": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
-     "title": "Angular",
-     "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It provides a robust set of tools and features for developing complex web applications.",
-     "tags": [
-       "Angular",
-       "Single-Page Application",
-       "TypeScript",
-       "Web Framework",
-       "Client-side"
-     ],
-     "detail": "`Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It offers a comprehensive set of tools and features for developing complex web applications, including data binding, dependency injection, and component-based architecture. Angular's CLI (Command Line Interface) streamlines the development process by automating tasks like project setup, building, and testing. With its modular structure and strong typing, Angular ensures that applications are scalable, maintainable, and performant.`"
-   },
-   {
-     "id": 27,
-     "imageURL": "https://cdn.auth0.com/blog/react-js/react.png",
-     "title": "React",
-     "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of applications efficiently, making it a popular choice for front-end development.",
-     "tags": [
-       "React",
-       "JavaScript Library",
-       "User Interfaces",
-       "UI Components",
-       "State Management"
-     ],
-     "detail": "`React is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and efficiently manage the state of applications. React's virtual DOM ensures fast and efficient updates to the user interface, enhancing performance. By using React, developers can build dynamic and interactive web applications with ease, leveraging the component-based architecture and state management capabilities. React's popularity and strong community support make it a preferred choice for modern front-end development.`"
-   },
-   {
-     "id": 28,
-     "imageURL": "https://miro.medium.com/v2/resize:fit:1200/1*FZzVQdfZ-F78vPEEELsF-w.png",
-     "title": "Docker",
-     "description": "Docker is a platform for developing, shipping, and running applications in containers. It enables developers to package applications and their dependencies into a single container, ensuring consistency across different environments.",
-     "tags": [
-       "Docker",
-       "Containers",
-       "DevOps",
-       "Consistency",
-       "Virtualization"
-     ],
-     "detail": "Docker is a platform that allows developers to package applications and their dependencies into containers, ensuring consistency across different environments. Containers are lightweight, portable, and self-sufficient, making it easy to develop, ship, and run applications. Docker simplifies the process of setting up development environments, reducing the works on my machine problem. By using Docker, developers can achieve faster deployment, improved scalability, and better resource utilization, supporting modern DevOps practices and microservices architecture."
-   },
-   {
-     "id": 29,
-     "imageURL": "https://miro.medium.com/v2/resize:fit:1400/1*0Wz5D29NDHKNauMSxBc18g.png",
-     "title": "Microservices",
-     "description": "Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, promoting flexibility and scalability.",
-     "tags": [
-       "Microservices",
-       "Architecture",
-       "Loosely Coupled",
-       "Scalability",
-       "Flexibility"
-     ],
-     "detail": "`Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, allowing for independent development, deployment, and scaling. This approach promotes flexibility and scalability, enabling teams to work on different parts of the application simultaneously. Microservices architecture supports continuous delivery and DevOps practices, making it ideal for large-scale, complex applications that require frequent updates and high availability.`"
-   },
-   {
-     "id": 30,
-     "imageURL": "https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png",
-     "title": "Flutter",
-     "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications from a single codebase, offering a high-performance and visually attractive user experience.",
-     "tags": [
-       "Flutter",
-       "Cross-Platform",
-       "UI Toolkit",
-       "Google",
-       "Single Codebase"
-     ],
-     "detail": "`Flutter is an open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. It offers a high-performance and visually attractive user experience with its rich set of pre-designed widgets and tools. Flutter's hot reload feature allows developers to see changes instantly, speeding up the development process. By using Flutter, developers can create cross-platform applications that deliver a consistent look and feel across different devices and platforms, reducing development time and effort.`"
-   },
-   {
+      ],
+      "detail": "`JAMstack architecture emphasizes performance and security by using client-side JavaScript, APIs, and prebuilt Markup to create scalable web applications. It stands for JavaScript, APIs, and Markup and is known for its fast load times, improved security, and simplified scaling. JAMstack promotes decoupling front-end and back-end components, enabling developers to use prebuilt services and APIs for dynamic functionalities. By leveraging serverless functions and content delivery networks (CDNs), JAMstack sites achieve high performance and reliability. This architecture is ideal for building websites that require frequent updates, scalable infrastructure, and seamless integration with third-party services.`"
+    },
+    {
+      "id": 13,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg",
+      "title": "React State Management",
+      "description": "React State Management refers to the techniques and libraries used to manage the state of a React application. It is crucial for building dynamic and interactive web applications.",
+      "tags": [
+        "React",
+        "State Management",
+        "Redux",
+        "Context API",
+        "Recoil"
+      ],
+      "detail": "`React State Management is essential for building dynamic web applications. Techniques like Redux, Context API, and Recoil help manage and share state across components. Efficient state management ensures that the application responds correctly to user interactions and updates seamlessly. By using these tools, developers can simplify state handling, reduce bugs, and improve the overall maintainability of the code.`"
+    },
+    {
+      "id": 14,
+      "imageURL": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+      "title": "React Router",
+      "description": "React Router is a standard library for routing in React. It enables navigation among views of various components in a React application, allowing for dynamic routing and navigation.",
+      "tags": [
+        "React Router",
+        "Routing",
+        "Navigation",
+        "Single Page Application",
+        "Dynamic Routing"
+      ],
+      "detail": "`React Router facilitates navigation within React applications, allowing for dynamic routing and a seamless user experience. It provides a declarative way to handle routes, making it easier to manage complex navigation scenarios. With features like nested routes and route parameters, React Router enhances the flexibility and scalability of React applications.`"
+    },
+    {
+      "id": 15,
+      "imageURL": "https://i.ytimg.com/vi/DXxt4oIAI4Y/hqdefault.jpg",
+      "title": "CSS Grid",
+      "description": "CSS Grid is a powerful layout system available in CSS. It provides a grid-based layout system, offering a flexible and efficient way to create complex web designs.",
+      "tags": [
+        "CSS Grid",
+        "Layout",
+        "Responsive Design",
+        "Web Design",
+        "CSS"
+      ],
+      "detail": "`CSS Grid offers a powerful and flexible layout system for creating complex web designs. It allows developers to create grid-based layouts with rows and columns, making it easy to align and position elements on a page. CSS Grid supports responsive design, ensuring that layouts adapt to different screen sizes and devices. By using CSS Grid, developers can build modern and visually appealing web interfaces efficiently.`"
+    },
+    {
+      "id": 16,
+      "imageURL": "https://media.licdn.com/dms/image/D4D12AQFQKRgZStlh3A/article-cover_image-shrink_720_1280/0/1694236782074?e=2147483647&v=beta&t=vnn6k94P3y13BUIgwgCTc-vZbDCTuOJePSIPrPGbCpA",
+      "title": "GraphQL",
+      "description": "GraphQL is a query language for APIs and a runtime for executing those queries. It provides a more efficient and powerful alternative to REST by allowing clients to request only the data they need.",
+      "tags": [
+        "GraphQL",
+        "API",
+        "Data Fetching",
+        "Efficiency",
+        "REST Alternative"
+      ],
+      "detail": "`GraphQL provides a more efficient way to interact with APIs by allowing clients to request only the data they need. It replaces REST by offering a flexible and powerful query language that enables clients to specify exactly what data they want. This approach reduces over-fetching and under-fetching of data, improving the performance and efficiency of web applications. GraphQL supports complex queries and real-time updates, making it ideal for modern web development.`"
+    },
+    {
+      "id": 17,
+      "imageURL": "https://www.getfishtank.com/-/media/v2/v2-blog/what-is-a-headless-cms/headless-cms.ashx",
+      "title": "Headless CMS",
+      "description": "A Headless CMS is a content management system that separates the back-end content management from the front-end presentation layer. This provides more flexibility and allows for the use of any front-end technology.",
+      "tags": [
+        "Headless CMS",
+        "Content Management",
+        "API",
+        "Flexibility",
+        "Front-end"
+      ],
+      "detail": "`Headless CMS offers a modern approach to content management by decoupling the back-end from the front-end. This separation provides developers with the flexibility to use any front-end technology while managing content via APIs. Headless CMS platforms like Strapi and Contentful allow for seamless integration with various frameworks and tools, enabling developers to build scalable and customized web applications. By using a Headless CMS, content can be delivered across multiple channels, including web, mobile, and IoT devices.`"
+    },
+    {
+      "id": 18,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      "title": "Component Libraries",
+      "description": "Component Libraries like Material-UI and Ant Design provide pre-built UI components that help streamline the development process and ensure design consistency across applications.",
+      "tags": [
+        "Component Libraries",
+        "Material-UI",
+        "Ant Design",
+        "UI Components",
+        "Design Consistency"
+      ],
+      "detail": "`Component Libraries offer a collection of pre-built UI components that help developers build consistent and visually appealing interfaces quickly. Libraries like Material-UI and Ant Design provide a wide range of customizable components that adhere to design guidelines and best practices. By using these libraries, developers can speed up the development process, reduce code duplication, and ensure design consistency across different parts of an application. Component Libraries also come with built-in theming capabilities, making it easy to create a cohesive look and feel.`"
+    },
+    {
+      "id": 19,
+      "imageURL": "https://miro.medium.com/v2/resize:fit:6000/1*qv4SY2tovG2mf1uDEzbA2A.jpeg",
+      "title": "Redux",
+      "description": "Redux is a predictable state container for JavaScript apps, often used with React. It helps manage the state of an application in a consistent way, making it easier to debug and test.",
+      "tags": [
+        "Redux",
+        "State Management",
+        "React",
+        "JavaScript",
+        "Predictable"
+      ],
+      "detail": "`Redux provides a predictable state container for JavaScript applications, making state management consistent and easier to debug. It is commonly used with React to handle complex state logic and ensure that the application state is predictable and centralized. Redux uses actions and reducers to update the state, following a strict unidirectional data flow. This approach simplifies state management, improves code maintainability, and makes it easier to implement features like undo/redo and time-travel debugging.`"
+    },
+    {
+      "id": 20,
+      "imageURL": "https://www.tatvasoft.com/blog/wp-content/uploads/2020/05/Serverless-An-Emerging-Software-Architecture.jpg",
+      "title": "Serverless Architecture",
+      "description": "Serverless Architecture is a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. It allows developers to build and run applications without managing server infrastructure.",
+      "tags": [
+        "Serverless Architecture",
+        "Cloud Computing",
+        "Scalability",
+        "AWS Lambda",
+        "Function as a Service"
+      ],
+      "detail": "`Serverless Architecture allows developers to build and run applications without managing server infrastructure. The cloud provider automatically handles the allocation and provisioning of servers, enabling developers to focus on writing code. This approach offers scalability, reduced operational costs, and faster time to market. Serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions support event-driven computing, where code is executed in response to events, making it ideal for microservices and real-time applications.`"
+    },
+    {
+      "id": 21,
+      "imageURL": "https://media.licdn.com/dms/image/D5612AQFyNUX3XiNmFg/article-cover_image-shrink_720_1280/0/1685942878812?e=2147483647&v=beta&t=ZNLVG0S4u2EpEL996LxU6p5EngtVUUoDfyY4RF8gsUY",
+      "title": "Continuous Integration and Continuous Deployment (CI/CD)",
+      "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. It enables rapid and reliable delivery of applications.",
+      "tags": [
+        "CI/CD",
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Automation",
+        "DevOps"
+      ],
+      "detail": "`CI/CD practices involve continuous integration and continuous deployment, enabling rapid and reliable delivery of applications. CI/CD pipelines automate the process of integrating code changes, running tests, and deploying applications, ensuring that updates are released frequently and consistently. By adopting CI/CD, development teams can reduce manual errors, accelerate the release cycle, and improve collaboration. Tools like Jenkins, CircleCI, and GitHub Actions facilitate the implementation of CI/CD pipelines, promoting DevOps practices and improving overall software quality.`"
+    },
+    {
+      "id": 22,
+      "imageURL": "https://www.svgrepo.com/show/353985/rest-api.svg",
+      "title": "RESTful APIs",
+      "description": "RESTful APIs are web services that follow the principles of REST (Representational State Transfer). They use HTTP methods to interact with resources, providing a simple and scalable way to build APIs.",
+      "tags": [
+        "RESTful APIs",
+        "HTTP",
+        "Web Services",
+        "Scalability",
+        "Resources"
+      ],
+      "detail": "`RESTful APIs provide a scalable and simple way to build web services by following the principles of REST (Representational State Transfer). They use standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources, making them easy to use and integrate. RESTful APIs support stateless communication, meaning each request contains all the information needed to process it. This approach ensures scalability, as servers can handle multiple requests independently. RESTful APIs are widely used in web development for creating CRUD (Create, Read, Update, Delete) operations and enabling communication between client and server applications.`"
+    },
+    {
+      "id": 23,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kubernetes_logo_without_workmark.svg",
+      "title": "Kubernetes",
+      "description": "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It provides a robust framework for running distributed systems resiliently.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "Orchestration",
+        "Scaling",
+        "Distributed Systems"
+      ],
+      "detail": "`Kubernetes is an open-source platform that automates the deployment, scaling, and operation of application containers. It provides a robust framework for running distributed systems resiliently, ensuring that applications are highly available and scalable. Kubernetes manages containerized applications across a cluster of machines, handling tasks such as load balancing, service discovery, and resource allocation. By using Kubernetes, developers can deploy and manage containerized applications efficiently, improving the scalability and reliability of their systems.`"
+    },
+    {
+      "id": 24,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      "title": "Express.js",
+      "description": "Express.js is a minimal and flexible Node.js web application framework. It provides a robust set of features for building web and mobile applications, making it a popular choice for server-side development.",
+      "tags": [
+        "Express.js",
+        "Node.js",
+        "Web Framework",
+        "Server-side",
+        "JavaScript"
+      ],
+      "detail": "`Express.js is a minimal and flexible web application framework for Node.js, offering a robust set of features for building web and mobile applications. It simplifies server-side development by providing a range of middleware and routing capabilities. Express.js supports RESTful APIs, making it easy to create endpoints for CRUD operations. Its flexibility and simplicity make it a popular choice for building server-side applications, enabling developers to focus on writing business logic and handling requests and responses efficiently.`"
+    },
+    {
+      "id": 25,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Bootstrap_logo.svg",
+      "title": "Bootstrap",
+      "description": "Bootstrap is a popular front-end framework for building responsive, mobile-first websites. It includes pre-designed UI components and utility classes, helping developers create modern web interfaces quickly.",
+      "tags": [
+        "Bootstrap",
+        "Front-end Framework",
+        "Responsive Design",
+        "UI Components",
+        "CSS"
+      ],
+      "detail": "`Bootstrap is a widely used front-end framework that helps developers build responsive, mobile-first websites quickly and efficiently. It includes a collection of pre-designed UI components and utility classes, making it easy to create modern and consistent web interfaces. Bootstrap supports responsive design principles, ensuring that websites look and function well on different devices and screen sizes. By using Bootstrap, developers can save time on design and focus on implementing functionality, leveraging the framework's extensive documentation and community support.`"
+    },
+    {
+      "id": 26,
+      "imageURL": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+      "title": "Angular",
+      "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It provides a robust set of tools and features for developing complex web applications.",
+      "tags": [
+        "Angular",
+        "Single-Page Application",
+        "TypeScript",
+        "Web Framework",
+        "Client-side"
+      ],
+      "detail": "`Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It offers a comprehensive set of tools and features for developing complex web applications, including data binding, dependency injection, and component-based architecture. Angular's CLI (Command Line Interface) streamlines the development process by automating tasks like project setup, building, and testing. With its modular structure and strong typing, Angular ensures that applications are scalable, maintainable, and performant.`"
+    },
+    {
+      "id": 27,
+      "imageURL": "https://cdn.auth0.com/blog/react-js/react.png",
+      "title": "React",
+      "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of applications efficiently, making it a popular choice for front-end development.",
+      "tags": [
+        "React",
+        "JavaScript Library",
+        "User Interfaces",
+        "UI Components",
+        "State Management"
+      ],
+      "detail": "`React is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and efficiently manage the state of applications. React's virtual DOM ensures fast and efficient updates to the user interface, enhancing performance. By using React, developers can build dynamic and interactive web applications with ease, leveraging the component-based architecture and state management capabilities. React's popularity and strong community support make it a preferred choice for modern front-end development.`"
+    },
+    {
+      "id": 28,
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1200/1*FZzVQdfZ-F78vPEEELsF-w.png",
+      "title": "Docker",
+      "description": "Docker is a platform for developing, shipping, and running applications in containers. It enables developers to package applications and their dependencies into a single container, ensuring consistency across different environments.",
+      "tags": [
+        "Docker",
+        "Containers",
+        "DevOps",
+        "Consistency",
+        "Virtualization"
+      ],
+      "detail": "Docker is a platform that allows developers to package applications and their dependencies into containers, ensuring consistency across different environments. Containers are lightweight, portable, and self-sufficient, making it easy to develop, ship, and run applications. Docker simplifies the process of setting up development environments, reducing the works on my machine problem. By using Docker, developers can achieve faster deployment, improved scalability, and better resource utilization, supporting modern DevOps practices and microservices architecture."
+    },
+    {
+      "id": 29,
+      "imageURL": "https://miro.medium.com/v2/resize:fit:1400/1*0Wz5D29NDHKNauMSxBc18g.png",
+      "title": "Microservices",
+      "description": "Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, promoting flexibility and scalability.",
+      "tags": [
+        "Microservices",
+        "Architecture",
+        "Loosely Coupled",
+        "Scalability",
+        "Flexibility"
+      ],
+      "detail": "`Microservices is an architectural style that structures an application as a collection of small, loosely coupled services. Each service is self-contained and performs a specific function, allowing for independent development, deployment, and scaling. This approach promotes flexibility and scalability, enabling teams to work on different parts of the application simultaneously. Microservices architecture supports continuous delivery and DevOps practices, making it ideal for large-scale, complex applications that require frequent updates and high availability.`"
+    },
+    {
+      "id": 30,
+      "imageURL": "https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png",
+      "title": "Flutter",
+      "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications from a single codebase, offering a high-performance and visually attractive user experience.",
+      "tags": [
+        "Flutter",
+        "Cross-Platform",
+        "UI Toolkit",
+        "Google",
+        "Single Codebase"
+      ],
+      "detail": "`Flutter is an open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. It offers a high-performance and visually attractive user experience with its rich set of pre-designed widgets and tools. Flutter's hot reload feature allows developers to see changes instantly, speeding up the development process. By using Flutter, developers can create cross-platform applications that deliver a consistent look and feel across different devices and platforms, reducing development time and effort.`"
+    },
+    {
       "id": 31,
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Apache_Mahout_logo.svg",
       "title": "Apache Mahout",
@@ -635,7 +641,7 @@
       ],
       "detail": "`Apache Mahout is an open-source machine learning and data mining library designed for scalable data analysis. It provides a range of algorithms for clustering, classification, and recommendation, making it easier to build predictive models and analyze large datasets. Mahout is built to integrate with Hadoop and other big data technologies.`"
     },
-   {
+    {
       "id": 32,
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Redis_Logo.svg",
       "title": "Redis",
@@ -957,7 +963,7 @@
       ],
       "detail": "`Apache Spark is an open-source analytics engine designed for large-scale data processing. It provides high-speed data processing capabilities and supports a range of data analysis tasks, including batch processing, streaming, and machine learning. Spark's in-memory computing and optimized execution engine enable fast and efficient data processing, making it a popular choice for big data analytics and complex data workflows.`"
     },
-    [
+    
       {
         "id": 55,
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nginx_logo.svg",
@@ -985,396 +991,56 @@
           "Static Site Generation"
         ],
         "detail": "`Next.js is a React framework that facilitates server-side rendering (SSR) and static site generation (SSG). It simplifies the development of optimized and high-performance React applications by providing built-in support for features such as routing, code splitting, and automatic static optimization. Next.js is known for its ease of use and ability to improve the performance and SEO of React applications.`"
-      },
-      {
-        "id": 57,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Node.js_logo.svg",
-        "title": "Node.js",
-        "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows developers to build scalable and high-performance server-side applications.",
-        "tags": [
-          "Node.js",
-          "JavaScript",
-          "Server-side",
-          "Runtime",
-          "Scalability"
-        ],
-        "detail": "`Node.js is an open-source JavaScript runtime environment built on Chrome's V8 engine. It enables developers to build scalable and high-performance server-side applications using JavaScript. Node.js is known for its event-driven, non-blocking I/O model, which makes it suitable for building real-time applications and handling a large number of concurrent connections.`"
-      },
-      {
-        "id": 58,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Redis_Logo.svg",
-        "title": "Redis",
-        "description": "Redis is an in-memory data structure store used as a database, cache, and message broker. It provides high-speed access to data and supports various data structures.",
-        "tags": [
-          "Redis",
-          "In-memory Database",
-          "Cache",
-          "Data Structures",
-          "Performance"
-        ],
-        "detail": "`Redis is an open-source, in-memory data structure store that functions as a database, cache, and message broker. It offers high-speed data access and supports various data structures such as strings, hashes, lists, and sets. Redis is widely used for caching, session management, and real-time analytics due to its low latency and high performance.`"
-      },
-      {
-        "id": 59,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Apache_MyFaces_logo.svg",
-        "title": "Apache MyFaces",
-        "description": "Apache MyFaces is an open-source JavaServer Faces (JSF) implementation that provides a framework for building web-based user interfaces in Java.",
-        "tags": [
-          "Apache MyFaces",
-          "JSF",
-          "Java",
-          "Web Framework",
-          "UI"
-        ],
-        "detail": "`Apache MyFaces is an open-source implementation of the JavaServer Faces (JSF) specification. It provides a framework for building component-based web user interfaces in Java. MyFaces supports various JSF features such as reusable components, event handling, and validation, making it a useful tool for developing web applications in Java.`"
-      },
-      {
-        "id": 60,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/72/Apache_Cassandra_logo.svg",
-        "title": "Apache Cassandra",
-        "description": "Apache Cassandra is a distributed NoSQL database designed for handling large amounts of data across many commodity servers without a single point of failure.",
-        "tags": [
-          "Apache Cassandra",
-          "NoSQL",
-          "Database",
-          "Distributed",
-          "Scalability"
-        ],
-        "detail": "`Apache Cassandra is a highly scalable, distributed NoSQL database designed to handle large volumes of data across multiple nodes. It offers high availability and fault tolerance without a single point of failure, making it suitable for applications requiring high write and read throughput. Cassandra's distributed architecture ensures data replication and partitioning across a cluster of servers.`"
-      },
-      {
-        "id": 61,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Azure_Logo.svg",
-        "title": "Microsoft Azure",
-        "description": "Microsoft Azure is a cloud computing service created by Microsoft that provides a range of cloud services, including those for computing, analytics, storage, and networking.",
-        "tags": [
-          "Microsoft Azure",
-          "Cloud Computing",
-          "Infrastructure",
-          "Services",
-          "Networking"
-        ],
-        "detail": "`Microsoft Azure is a cloud computing platform and service offered by Microsoft. It provides a comprehensive set of cloud services, including virtual machines, databases, analytics, and networking. Azure allows businesses to build, deploy, and manage applications and services through a global network of data centers. Its broad range of services supports various computing needs and integrates with existing Microsoft products.`"
-      },
-      {
-        "id": 62,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Apache_Solr_logo.png",
-        "title": "Apache Solr",
-        "description": "Apache Solr is an open-source search platform built on Apache Lucene. It provides full-text search capabilities and faceted search features for large-scale data sets.",
-        "tags": [
-          "Apache Solr",
-          "Search Engine",
-          "Full-text Search",
-          "Faceted Search",
-          "Data Analysis"
-        ],
-        "detail": "`Apache Solr is an open-source search platform based on Apache Lucene. It offers powerful full-text search capabilities and advanced features such as faceted search, filtering, and distributed search. Solr is designed for handling large-scale data sets and providing high-performance search and indexing functionalities, making it suitable for applications requiring robust search and data analysis.`"
-      },
-      {
-        "id": 63,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Apache_HBase_logo.svg",
-        "title": "Apache HBase",
-        "description": "Apache HBase is an open-source, distributed, and scalable NoSQL database built on top of the Hadoop file system. It provides real-time read/write access to large datasets.",
-        "tags": [
-          "Apache HBase",
-          "NoSQL",
-          "Database",
-          "Hadoop",
-          "Scalability"
-        ],
-        "detail": "`Apache HBase is a distributed, scalable NoSQL database designed for real-time read/write access to large datasets. Built on top of the Hadoop file system, HBase provides random access to data and supports large-scale data storage. It is commonly used for applications that require high throughput and low latency access to big data.`"
-      },
-      {
-        "id": 64,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Elastic_Logo.svg",
-        "title": "Elastic Stack",
-        "description": "Elastic Stack, formerly known as ELK Stack, is a set of open-source tools for search and data analysis, including Elasticsearch, Logstash, and Kibana.",
-        "tags": [
-          "Elastic Stack",
-          "Search",
-          "Analytics",
-          "Elasticsearch",
-          "Logstash",
-          "Kibana"
-        ],
-        "detail": "`The Elastic Stack, also known as ELK Stack, is a collection of open-source tools for search, logging, and data analysis. It includes Elasticsearch for search and analytics, Logstash for data ingestion and processing, and Kibana for visualization and exploration. The Elastic Stack enables users to collect, index, search, and analyze large volumes of data in real-time.`"
-      },
-      {
-        "id": 65,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/MongoDB_Logo.svg",
-        "title": "MongoDB",
-        "description": "MongoDB is a NoSQL database that uses a document-oriented data model to store data in flexible, JSON-like documents. It is designed for high availability and scalability.",
-        "tags": [
-          "MongoDB",
-          "NoSQL",
-          "Document Store",
-          "Database",
-          "Scalability"
-        ],
-        "detail": "`MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It uses a document-oriented data model to provide high availability, scalability, and easy replication. MongoDB is suitable for applications requiring dynamic schemas and large-scale data storage, offering powerful query capabilities and robust performance.`"
-      },
-      {
-        "id": 66,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Apache_Kafka_logo.svg",
-        "title": "Apache Kafka",
-        "description": "Apache Kafka is an open-source stream-processing platform designed for high-throughput and fault-tolerant data streaming. It is used for building real-time data pipelines and streaming applications.",
-        "tags": [
-          "Apache Kafka",
-          "Stream Processing",
-          "Data Streaming",
-          "High Throughput",
-          "Fault Tolerance"
-        ],
-        "detail": "`Apache Kafka is an open-source stream-processing platform that provides high-throughput, fault-tolerant data streaming capabilities. It is designed to handle large volumes of real-time data and is commonly used for building data pipelines and streaming applications. Kafka's distributed architecture ensures reliability and scalability in processing and transporting data.`"
-      },
-      {
-        "id": 67,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kubernetes_logo.svg",
-        "title": "Kubernetes",
-        "description": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
-        "tags": [
-          "Kubernetes",
-          "Container Orchestration",
-          "Automation",
-          "Scaling",
-          "Management"
-        ],
-        "detail": "`Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It provides a robust system for orchestrating containers, ensuring high availability, and managing application lifecycles. Kubernetes supports various container runtimes and integrates with cloud-native technologies to streamline container operations.`"
-      },
-      {
-        "id": 68,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Apache_Tomcat_logo.svg",
-        "title": "Apache Tomcat",
-        "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, and Java Expression Language technologies. It provides a platform for running Java-based web applications.",
-        "tags": [
-          "Apache Tomcat",
-          "Java",
-          "Servlet",
-          "JavaServer Pages",
-          "Web Applications"
-        ],
-        "detail": "`Apache Tomcat is an open-source application server that implements Java Servlet, JavaServer Pages (JSP), and Java Expression Language (EL) technologies. It provides a robust platform for running Java-based web applications and supports features such as session management, security, and connection pooling.`"
-      },
-      {
-        "id": 69,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Apache_Maven_logo.svg",
-        "title": "Apache Maven",
-        "description": "Apache Maven is a build automation and project management tool for Java projects. It uses an XML file to describe the project's build process and dependencies.",
-        "tags": [
-          "Apache Maven",
-          "Build Automation",
-          "Project Management",
-          "Java",
-          "Dependencies"
-        ],
-        "detail": "`Apache Maven is a build automation tool primarily used for Java projects. It uses an XML file called `pom.xml` to define the project's structure, dependencies, and build process. Maven simplifies project management by automating tasks such as compilation, testing, packaging, and deployment, making it easier to manage complex Java applications.`"
-      },
-      {
-        "id": 70,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/16/Apache_Hive_logo.svg",
-        "title": "Apache Hive",
-        "description": "Apache Hive is a data warehouse infrastructure built on top of Hadoop that provides data summarization, query, and analysis capabilities using a SQL-like language.",
-        "tags": [
-          "Apache Hive",
-          "Data Warehouse",
-          "Hadoop",
-          "SQL",
-          "Data Analysis"
-        ],
-        "detail": "`Apache Hive is a data warehouse infrastructure built on top of Hadoop. It provides a SQL-like query language for data summarization, querying, and analysis, making it easier for users to work with large-scale data stored in Hadoop's HDFS. Hive translates queries into MapReduce jobs, enabling efficient processing of big data.`"
-      },
-      {
-        "id": 71,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/37/Apache_ActiveMQ_logo.svg",
-        "title": "Apache ActiveMQ",
-        "description": "Apache ActiveMQ is an open-source message broker that supports various messaging protocols and provides reliable communication between distributed systems.",
-        "tags": [
-          "Apache ActiveMQ",
-          "Message Broker",
-          "Messaging Protocols",
-          "Distributed Systems",
-          "Communication"
-        ],
-        "detail": "`Apache ActiveMQ is a popular open-source message broker that supports a variety of messaging protocols, including JMS, MQTT, and AMQP. It enables reliable communication between distributed systems by providing features such as message persistence, transactions, and pub/sub messaging. ActiveMQ is used for integrating and decoupling components in complex applications.`"
-      },
-      {
-        "id": 72,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Apache_Atlas_logo.svg",
-        "title": "Apache Atlas",
-        "description": "Apache Atlas is an open-source data governance and metadata management tool for managing and analyzing metadata in big data environments.",
-        "tags": [
-          "Apache Atlas",
-          "Data Governance",
-          "Metadata Management",
-          "Big Data",
-          "Compliance"
-        ],
-        "detail": "`Apache Atlas is an open-source tool for data governance and metadata management in big data environments. It provides capabilities for managing metadata, defining data classifications, and ensuring data compliance. Atlas helps organizations understand and manage their data assets, lineage, and policies, facilitating better data governance and compliance.`"
-      },
-      {
-        "id": 73,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Apache_Storm_logo.svg",
-        "title": "Apache Storm",
-        "description": "Apache Storm is a distributed real-time computation system for processing large streams of data. It supports complex event processing and real-time analytics.",
-        "tags": [
-          "Apache Storm",
-          "Real-time Processing",
-          "Data Streams",
-          "Complex Event Processing",
-          "Analytics"
-        ],
-        "detail": "`Apache Storm is a distributed real-time computation system designed to process large volumes of data streams. It enables complex event processing and real-time analytics by providing a scalable and fault-tolerant platform for handling continuous data flows. Storm is commonly used in applications that require low-latency processing and real-time insights.`"
-      },
-      {
-        "id": 74,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apache_Camel_logo.svg",
-        "title": "Apache Camel",
-        "description": "Apache Camel is an open-source integration framework that provides a standardized way to integrate various systems and applications using enterprise integration patterns.",
-        "tags": [
-          "Apache Camel",
-          "Integration Framework",
-          "Enterprise Integration Patterns",
-          "Messaging",
-          "Routing"
-        ],
-        "detail": "`Apache Camel is an open-source integration framework that facilitates the integration of different systems and applications using enterprise integration patterns. It provides a standardized approach to routing, transforming, and mediating messages between disparate systems. Camel supports a wide range of protocols and data formats, making it suitable for complex integration scenarios.`"
-      },
-      {
-        "id": 75,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/27/Apache_Sling_logo.svg",
-        "title": "Apache Sling",
-        "description": "Apache Sling is a framework for developing web applications based on the Java Content Repository (JCR). It provides a flexible way to build content-centric applications.",
-        "tags": [
-          "Apache Sling",
-          "Web Application Framework",
-          "JCR",
-          "Content Management",
-          "Java"
-        ],
-        "detail": "`Apache Sling is a web application framework designed to work with the Java Content Repository (JCR). It provides a flexible and modular approach to building content-centric applications by leveraging JCR's hierarchical content model. Sling simplifies the development of web applications and content management systems by using a component-based architecture.`"
-      },
-      {
-        "id": 76,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apache_Elasticsearch_logo.svg",
-        "title": "Elasticsearch",
-        "description": "Elasticsearch is an open-source search and analytics engine built on Apache Lucene. It provides full-text search, structured search, and analytics capabilities for large-scale data.",
-        "tags": [
-          "Elasticsearch",
-          "Search Engine",
-          "Analytics",
-          "Full-text Search",
-          "Data Analysis"
-        ],
-        "detail": "`Elasticsearch is an open-source search and analytics engine that is built on top of Apache Lucene. It provides powerful full-text search capabilities, structured search, and real-time analytics for large-scale data. Elasticsearch is widely used for applications requiring fast search and indexing, and it is a core component of the Elastic Stack.`"
-      },
-      {
-        "id": 77,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Apache_Sqoop_logo.svg",
-        "title": "Apache Sqoop",
-        "description": "Apache Sqoop is a tool designed for efficiently transferring data between Hadoop and relational databases. It supports both import and export operations.",
-        "tags": [
-          "Apache Sqoop",
-          "Data Transfer",
-          "Hadoop",
-          "Relational Databases",
-          "ETL"
-        ],
-        "detail": "`Apache Sqoop is a tool for efficiently transferring data between Hadoop and relational databases. It supports both import and export operations, making it easier to integrate data stored in relational databases with Hadoop's distributed processing capabilities. Sqoop is commonly used for data migration and ETL (extract, transform, load) processes.`"
-      },
-      {
-        "id": 78,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Apache_Spark_logo.svg",
-        "title": "Apache Spark",
-        "description": "Apache Spark is an open-source unified analytics engine for large-scale data processing. It supports batch and stream processing, and provides high-speed data analysis.",
-        "tags": [
-          "Apache Spark",
-          "Data Processing",
-          "Batch Processing",
-          "Stream Processing",
-          "Analytics"
-        ],
-        "detail": "`Apache Spark is an open-source analytics engine designed for large-scale data processing. It supports both batch and stream processing and provides high-speed data analysis capabilities. Spark's in-memory computing and distributed processing features make it suitable for handling big data workloads and performing complex data transformations.`"
-      },
-      {
-        "id": 79,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/81/Apache_Kafka_logo.svg",
-        "title": "Apache Kafka Streams",
-        "description": "Apache Kafka Streams is a client library for building real-time, stream processing applications using Apache Kafka. It provides a high-level API for stream processing.",
-        "tags": [
-          "Apache Kafka Streams",
-          "Stream Processing",
-          "Real-time Processing",
-          "Kafka",
-          "Analytics"
-        ],
-        "detail": "`Apache Kafka Streams is a client library for building real-time stream processing applications with Apache Kafka. It provides a high-level API for processing and analyzing data streams, enabling developers to create complex event-driven applications. Kafka Streams is integrated with the Kafka ecosystem, offering powerful features for stream processing.`"
-      },
-      {
-        "id": 80,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Apache_Mahout_logo.svg",
-        "title": "Apache Mahout",
-        "description": "Apache Mahout is an open-source project designed for scalable machine learning and data mining. It provides algorithms for clustering, classification, and recommendation.",
-        "tags": [
-          "Apache Mahout",
-          "Machine Learning",
-          "Data Mining",
-          "Algorithms",
-          "Scalability"
-        ],
-        "detail": "`Apache Mahout is an open-source machine learning and data mining library designed for scalable data analysis. It provides a range of algorithms for clustering, classification, and recommendation, making it easier to build predictive models and analyze large datasets. Mahout is built to integrate with Hadoop and other big data technologies.`"
       }
-    ]
-     
-],
-
-"AboutData":[
-  {
-     "id":"1",
-     "title":"Server-side Rendering (SSR) and Static Site Generation (SSG)",
-     "subtitle":"Improve SEO and performance",
-     "description":"`Server-side Rendering (SSR) and Static Site Generation (SSG) are two powerful techniques used in modern web development to enhance performance and SEO. SSR involves rendering web pages on the server before sending them to the client. This means that the content is fully rendered on the server and sent as a complete HTML document to the user's browser, making it highly beneficial for SEO. Search engine crawlers can easily index the content without needing to execute JavaScript, improving the likelihood of better search rankings. Additionally, SSR can significantly reduce the time it takes for users to see content on their screens, as they receive a fully rendered page quickly.SSG, on the other hand, involves generating static HTML pages at build time. When a user requests a page, the server delivers a pre-rendered HTML file rather than generating the page dynamically. This approach results in faster load times since static files are quicker to serve compared to dynamically generated content. It also reduces server load and allows for efficient caching strategies, further enhancing performance. SSG is particularly effective for content that doesn’t change frequently, as it eliminates the need for server-side rendering on every request.Both SSR and SSG offer unique advantages and can be used together to leverage their strengths. SSR is ideal for dynamic content that benefits from server-side rendering, while SSG is perfect for static content that benefits from faster load times. By incorporating both techniques, developers can create web applications that are not only fast and responsive but also optimized for search engines, providing an overall superior user experience. These methods also facilitate better control over content delivery and scalability, making them essential tools for modern web development.`"
-  },
-  {
-     "id":"2",
-     "title":"Automatic Code Splitting",
-     "subtitle":"Optimized loading times",
-     "description":"`Automatic Code Splitting is a technique designed to enhance the performance of web applications by loading only the necessary code for each page or feature, rather than loading the entire codebase at once. This approach helps reduce initial load times and improves the overall responsiveness of the application. By breaking down the application into smaller chunks, Automatic Code Splitting ensures that users only download and execute the code that is required for their current interaction, rather than loading the entire application upfront.This technique is particularly useful in managing large and complex applications where loading the entire codebase could lead to performance bottlenecks and slower page loads. Code splitting helps in optimizing resource loading by deferring the loading of non-essential code until it is needed. This results in a more efficient use of network resources and a better user experience, as pages and features load faster and respond more quickly.Automatic Code Splitting is typically integrated into the build process using tools and bundlers that analyze the application's dependencies and determine how to split the code effectively. This process allows for on-demand loading of resources, which can lead to improved performance and reduced server load. Overall, Automatic Code Splitting is a key technique for modern web development, helping to create faster and more efficient applications that provide a seamless user experience.`"
-  },
-  {
-     "id":"3",
-     "title":"TypeScript Support",
-     "subtitle":"Enhanced developer experience",
-     "description":"`TypeScript Support is a significant enhancement for web development that introduces static typing to JavaScript. TypeScript, a superset of JavaScript developed by Microsoft, allows developers to add type annotations to their code, which can lead to earlier detection of errors and improved code quality. This static typing system helps in catching mistakes during development before they make it to production, thus reducing bugs and making code more reliable.TypeScript provides advanced tooling support, including features like autocompletion, type inference, and refactoring capabilities. These features enhance the overall developer experience by making code easier to write, understand, and maintain. With TypeScript, developers can benefit from better code navigation and more robust IDE support, which can significantly speed up development and debugging processes.Additionally, TypeScript integrates well with popular frameworks and libraries, offering flexibility in its adoption. Developers can gradually introduce TypeScript into existing JavaScript projects or use it from the start for new projects. This gradual adoption allows teams to leverage TypeScript’s benefits without a complete rewrite of existing codebases. Overall, TypeScript Support enhances the development experience by providing stronger tooling, improved code quality, and better maintainability.`"
-  },
-  {
-     "id":"4",
-     "title":"API Routes",
-     "subtitle":"Easily create backend APIs",
-     "description":"`API Routes are a feature that simplifies the creation and management of backend APIs within a web application framework. This functionality allows developers to define serverless functions or RESTful endpoints directly within their application, removing the need for a separate backend server. API Routes enable handling various HTTP methods such as GET, POST, PUT, and DELETE, allowing for the creation of robust and scalable APIs that can interact with databases or external services.By leveraging API Routes, developers can streamline the development process, as they can manage both frontend and backend code in the same codebase. This integration simplifies deployment and development workflows, as there is no need to set up and manage a separate backend server. API Routes also enable efficient handling of backend logic and data processing, allowing for more cohesive and manageable code.Furthermore, API Routes can support serverless deployment models, where each API endpoint is deployed as an independent function. This can lead to cost savings and scalability benefits, as serverless functions only run when invoked and scale automatically based on demand. Overall, API Routes provide a convenient and effective way to build and manage backend APIs within a unified development environment, enhancing both productivity and application performance.`"
-  },
-  {
-     "id":"5",
-     "title":"File-based Routing",
-     "subtitle":"Simple routing with files",
-     "description":"`File-based Routing is a powerful and intuitive approach to managing routes within a web application. This technique simplifies the routing process by leveraging the file system to define and organize routes. In a file-based routing system, each file or directory in the project's file structure corresponds to a specific route or URL path, making it easy to map pages and components to their respective routes without requiring extensive configuration.This method offers several advantages, including reduced boilerplate code and simplified route management. Developers can create, update, and organize routes by simply adding, modifying, or deleting files and directories within the project. This approach aligns the routing logic with the file structure, making it more intuitive and easier to understand.File-based Routing is often used in frameworks and libraries that support this approach, providing a streamlined way to handle routing with minimal setup. It enhances development efficiency by reducing the need for complex routing configurations and allowing developers to focus on building features and functionality. Overall, File-based Routing provides a clean and straightforward method for managing routes in web applications, improving both development speed and maintainability.`"
-  },
-  {
-     "id":"6",
-     "title":"CSS-in-JS Support",
-     "subtitle":"Component-based styling",
-     "description":"`CSS-in-JS Support is a modern approach to styling web applications that integrates CSS directly into JavaScript components. This technique allows developers to write CSS styles within JavaScript files, using libraries and frameworks that support CSS-in-JS. By co-locating styles with components, CSS-in-JS enables component-based styling, where each component manages its own styles, leading to more modular and maintainable code.This approach offers several benefits, including improved encapsulation of styles, as each component's styles are scoped and do not affect other components. It also provides dynamic styling capabilities, allowing styles to be adjusted based on component state or props. This results in more flexible and interactive user interfaces.CSS-in-JS libraries often come with features such as automatic vendor prefixing, style optimization, and support for themes. These features enhance the styling process by ensuring cross-browser compatibility and providing tools for managing design consistency. Overall, CSS-in-JS Support streamlines the styling process by integrating styles with components, leading to more maintainable and dynamic web applications.`"
-  },
-  {
-     "id":"7",
-     "title":"Image Optimization",
-     "subtitle":"Automatic image optimization",
-     "description":"`Image Optimization is a crucial aspect of modern web development that focuses on improving the performance of web applications by optimizing images. Automatic image optimization involves processing and optimizing images to reduce their file size without compromising quality. This can lead to faster page load times, reduced bandwidth usage, and improved overall user experience.Automated tools and techniques for image optimization include resizing, compression, and format conversion. These tools analyze images and apply various optimizations to ensure that they are delivered in the most efficient manner possible. By using optimized images, web applications can load faster, which is especially important for mobile users and users with slower internet connections.Image optimization can also include techniques such as lazy loading, where images are only loaded when they are about to be viewed by the user. This approach further enhances performance by deferring the loading of off-screen images until they are needed. Overall, automatic image optimization is a key practice for improving web performance, ensuring that images are delivered quickly and efficiently while maintaining high visual quality.`"
-  },
-  {
-     "id":"8",
-     "title":"Environment Variables",
-     "subtitle":"Manage across environments",
-     "description":"`Environment Variables are a fundamental aspect of configuring and managing web applications across different environments, such as development, staging, and production. These variables are used to store configuration values and sensitive information, such as API keys, database connection strings, and feature flags. By separating configuration from code, environment variables allow for more flexible and secure management of application settings.Managing environment variables involves defining them in separate configuration files or system settings, which can then be accessed by the application at runtime. This approach allows developers to use different configurations for different environments without changing the application code. For example, you can use a different API endpoint for development and production environments by setting environment-specific variables.Environment variables also contribute to improved security by keeping sensitive information out of the source code. By storing such information in environment variables, it can be kept secure and not exposed in version control systems. Overall, managing environment variables is essential for maintaining flexible, secure, and scalable web applications, ensuring that configuration values are appropriately handled across various environments.`"
-  }
-]
+  ],
+  "AboutData": [
+    {
+      "id": "1",
+      "title": "Server-side Rendering (SSR) and Static Site Generation (SSG)",
+      "subtitle": "Improve SEO and performance",
+      "description": "`Server-side Rendering (SSR) and Static Site Generation (SSG) are two powerful techniques used in modern web development to enhance performance and SEO. SSR involves rendering web pages on the server before sending them to the client. This means that the content is fully rendered on the server and sent as a complete HTML document to the user's browser, making it highly beneficial for SEO. Search engine crawlers can easily index the content without needing to execute JavaScript, improving the likelihood of better search rankings. Additionally, SSR can significantly reduce the time it takes for users to see content on their screens, as they receive a fully rendered page quickly.SSG, on the other hand, involves generating static HTML pages at build time. When a user requests a page, the server delivers a pre-rendered HTML file rather than generating the page dynamically. This approach results in faster load times since static files are quicker to serve compared to dynamically generated content. It also reduces server load and allows for efficient caching strategies, further enhancing performance. SSG is particularly effective for content that doesn’t change frequently, as it eliminates the need for server-side rendering on every request.Both SSR and SSG offer unique advantages and can be used together to leverage their strengths. SSR is ideal for dynamic content that benefits from server-side rendering, while SSG is perfect for static content that benefits from faster load times. By incorporating both techniques, developers can create web applications that are not only fast and responsive but also optimized for search engines, providing an overall superior user experience. These methods also facilitate better control over content delivery and scalability, making them essential tools for modern web development.`"
+    },
+    {
+      "id": "2",
+      "title": "Automatic Code Splitting",
+      "subtitle": "Optimized loading times",
+      "description": "`Automatic Code Splitting is a technique designed to enhance the performance of web applications by loading only the necessary code for each page or feature, rather than loading the entire codebase at once. This approach helps reduce initial load times and improves the overall responsiveness of the application. By breaking down the application into smaller chunks, Automatic Code Splitting ensures that users only download and execute the code that is required for their current interaction, rather than loading the entire application upfront.This technique is particularly useful in managing large and complex applications where loading the entire codebase could lead to performance bottlenecks and slower page loads. Code splitting helps in optimizing resource loading by deferring the loading of non-essential code until it is needed. This results in a more efficient use of network resources and a better user experience, as pages and features load faster and respond more quickly.Automatic Code Splitting is typically integrated into the build process using tools and bundlers that analyze the application's dependencies and determine how to split the code effectively. This process allows for on-demand loading of resources, which can lead to improved performance and reduced server load. Overall, Automatic Code Splitting is a key technique for modern web development, helping to create faster and more efficient applications that provide a seamless user experience.`"
+    },
+    {
+      "id": "3",
+      "title": "TypeScript Support",
+      "subtitle": "Enhanced developer experience",
+      "description": "`TypeScript Support is a significant enhancement for web development that introduces static typing to JavaScript. TypeScript, a superset of JavaScript developed by Microsoft, allows developers to add type annotations to their code, which can lead to earlier detection of errors and improved code quality. This static typing system helps in catching mistakes during development before they make it to production, thus reducing bugs and making code more reliable.TypeScript provides advanced tooling support, including features like autocompletion, type inference, and refactoring capabilities. These features enhance the overall developer experience by making code easier to write, understand, and maintain. With TypeScript, developers can benefit from better code navigation and more robust IDE support, which can significantly speed up development and debugging processes.Additionally, TypeScript integrates well with popular frameworks and libraries, offering flexibility in its adoption. Developers can gradually introduce TypeScript into existing JavaScript projects or use it from the start for new projects. This gradual adoption allows teams to leverage TypeScript’s benefits without a complete rewrite of existing codebases. Overall, TypeScript Support enhances the development experience by providing stronger tooling, improved code quality, and better maintainability.`"
+    },
+    {
+      "id": "4",
+      "title": "API Routes",
+      "subtitle": "Easily create backend APIs",
+      "description": "`API Routes are a feature that simplifies the creation and management of backend APIs within a web application framework. This functionality allows developers to define serverless functions or RESTful endpoints directly within their application, removing the need for a separate backend server. API Routes enable handling various HTTP methods such as GET, POST, PUT, and DELETE, allowing for the creation of robust and scalable APIs that can interact with databases or external services.By leveraging API Routes, developers can streamline the development process, as they can manage both frontend and backend code in the same codebase. This integration simplifies deployment and development workflows, as there is no need to set up and manage a separate backend server. API Routes also enable efficient handling of backend logic and data processing, allowing for more cohesive and manageable code.Furthermore, API Routes can support serverless deployment models, where each API endpoint is deployed as an independent function. This can lead to cost savings and scalability benefits, as serverless functions only run when invoked and scale automatically based on demand. Overall, API Routes provide a convenient and effective way to build and manage backend APIs within a unified development environment, enhancing both productivity and application performance.`"
+    },
+    {
+      "id": "5",
+      "title": "File-based Routing",
+      "subtitle": "Simple routing with files",
+      "description": "`File-based Routing is a powerful and intuitive approach to managing routes within a web application. This technique simplifies the routing process by leveraging the file system to define and organize routes. In a file-based routing system, each file or directory in the project's file structure corresponds to a specific route or URL path, making it easy to map pages and components to their respective routes without requiring extensive configuration.This method offers several advantages, including reduced boilerplate code and simplified route management. Developers can create, update, and organize routes by simply adding, modifying, or deleting files and directories within the project. This approach aligns the routing logic with the file structure, making it more intuitive and easier to understand.File-based Routing is often used in frameworks and libraries that support this approach, providing a streamlined way to handle routing with minimal setup. It enhances development efficiency by reducing the need for complex routing configurations and allowing developers to focus on building features and functionality. Overall, File-based Routing provides a clean and straightforward method for managing routes in web applications, improving both development speed and maintainability.`"
+    },
+    {
+      "id": "6",
+      "title": "CSS-in-JS Support",
+      "subtitle": "Component-based styling",
+      "description": "`CSS-in-JS Support is a modern approach to styling web applications that integrates CSS directly into JavaScript components. This technique allows developers to write CSS styles within JavaScript files, using libraries and frameworks that support CSS-in-JS. By co-locating styles with components, CSS-in-JS enables component-based styling, where each component manages its own styles, leading to more modular and maintainable code.This approach offers several benefits, including improved encapsulation of styles, as each component's styles are scoped and do not affect other components. It also provides dynamic styling capabilities, allowing styles to be adjusted based on component state or props. This results in more flexible and interactive user interfaces.CSS-in-JS libraries often come with features such as automatic vendor prefixing, style optimization, and support for themes. These features enhance the styling process by ensuring cross-browser compatibility and providing tools for managing design consistency. Overall, CSS-in-JS Support streamlines the styling process by integrating styles with components, leading to more maintainable and dynamic web applications.`"
+    },
+    {
+      "id": "7",
+      "title": "Image Optimization",
+      "subtitle": "Automatic image optimization",
+      "description": "`Image Optimization is a crucial aspect of modern web development that focuses on improving the performance of web applications by optimizing images. Automatic image optimization involves processing and optimizing images to reduce their file size without compromising quality. This can lead to faster page load times, reduced bandwidth usage, and improved overall user experience.Automated tools and techniques for image optimization include resizing, compression, and format conversion. These tools analyze images and apply various optimizations to ensure that they are delivered in the most efficient manner possible. By using optimized images, web applications can load faster, which is especially important for mobile users and users with slower internet connections.Image optimization can also include techniques such as lazy loading, where images are only loaded when they are about to be viewed by the user. This approach further enhances performance by deferring the loading of off-screen images until they are needed. Overall, automatic image optimization is a key practice for improving web performance, ensuring that images are delivered quickly and efficiently while maintaining high visual quality.`"
+    },
+    {
+      "id": "8",
+      "title": "Environment Variables",
+      "subtitle": "Manage across environments",
+      "description": "`Environment Variables are a fundamental aspect of configuring and managing web applications across different environments, such as development, staging, and production. These variables are used to store configuration values and sensitive information, such as API keys, database connection strings, and feature flags. By separating configuration from code, environment variables allow for more flexible and secure management of application settings.Managing environment variables involves defining them in separate configuration files or system settings, which can then be accessed by the application at runtime. This approach allows developers to use different configurations for different environments without changing the application code. For example, you can use a different API endpoint for development and production environments by setting environment-specific variables.Environment variables also contribute to improved security by keeping sensitive information out of the source code. By storing such information in environment variables, it can be kept secure and not exposed in version control systems. Overall, managing environment variables is essential for maintaining flexible, secure, and scalable web applications, ensuring that configuration values are appropriately handled across various environments.`"
+    }
+  ]
 }
