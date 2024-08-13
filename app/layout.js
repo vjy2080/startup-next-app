@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { AuthProvider } from "@/context/AuthContext";
 import ReactQueryProvider from "./utils/ReactQueryProvider";
 import Footer from "./components/Footer";
+import { SearchProvider } from "@/context/SearchContext";
 
 
 
@@ -22,9 +23,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ReactQueryProvider>
           <AuthProvider>
-            <Navbar />
-            {children}
-            <Footer />
+            <SearchProvider>
+              <Navbar />
+              {children}
+              <Footer />
+            </SearchProvider>
           </AuthProvider>
         </ReactQueryProvider>
       </body>

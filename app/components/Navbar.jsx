@@ -7,10 +7,12 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import Logo from './Logo';
 import Profile from '../profile/page';
+import { useSearch } from '@/context/SearchContext';
 
 
 const Navbar = () => {
     const { isAuthenticated, logout } = useAuth();
+    const { searchQuery, setSearchQuery } = useSearch();
     const { push } = useRouter();
 
     const handleSignOut = () => {
@@ -18,9 +20,12 @@ const Navbar = () => {
         push('/login');
     };
 
+    const handleSearchChange = (event) => {
+        setSearchQuery(event.target.value);
+    };
     return (
         <nav className="sticky top-0 bg-teal-900 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+            <div className=" flex flex-wrap items-center justify-around mx-auto px-4 py-2">
                 <Link href="/" className="cursor-pointer flex items-center space-x-3 rtl:space-x-reverse">
                     <div className='h-10'>
                         <Logo />
@@ -75,6 +80,22 @@ const Navbar = () => {
                         </li>
                         <li>
                             <DropdownMenuComponent />
+                        </li>
+
+                    </ul>
+                </div>
+                <div className="p-4">
+                    <ul
+                        className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+                    >
+                        <li>
+                            <input
+                                type="text"
+                                placeholder="Search..."
+                                value={searchQuery}
+                                onChange={handleSearchChange}
+                                className=" p-2 border rounded"
+                            />
                         </li>
                         {isAuthenticated && <li className='cursor-pointer flex items-center'>
                             <Link
@@ -135,6 +156,7 @@ const Navbar = () => {
                             }
                         </li>
                     </ul>
+
                 </div>
             </div>
         </nav>

@@ -6,15 +6,20 @@ import { fetchHomeData } from './components/query';
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { DNA } from 'react-loader-spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import { useSearch } from '@/context/SearchContext';
 
 const Home = () => {
   useAuth();
+  const { searchQuery } = useSearch();
+
   const [modalItem, setModalItem] = useState(null);
   const [displayedItems, setDisplayedItems] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalItemsLength, setTotalItemsLength] = useState(0);
-  const [isFetching, setIsFetching] = useState(false)
+  const [isFetching, setIsFetching] = useState(false);
+  const [loading, setLoading] = useState(true);
   const perPageItems = 8;
+
   const { data, error } = useInfiniteQuery({
     queryKey: ['homeData'],
     queryFn: fetchHomeData,
@@ -22,13 +27,20 @@ const Home = () => {
   });
 
   useEffect(() => {
+    setLoading(false);
+  }, [searchQuery])
+
+  useEffect(() => {
     if (data) {
       const allItems = data.pages.flatMap((page) => page);
       setTotalItemsLength(allItems.length);
-      setDisplayedItems(allItems.slice(0, currentPage * perPageItems));
+      setDisplayedItems(allItems
+        .filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()))
+        .slice(0, currentPage * perPageItems)
+      );
       setIsFetching(false);
     }
-  }, [data, currentPage]);
+  }, [data, currentPage, searchQuery]);
 
   const loadMoreItems = () => {
     setIsFetching(true);
@@ -54,9 +66,9 @@ const Home = () => {
       <InfiniteScroll
         dataLength={totalItemsLength} //This is important field to render the next data
         next={loadMoreItems}
-        hasMore={currentPage !== totalItemsLength / perPageItems}
+        hasMore={!loading && currentPage !== totalItemsLength / perPageItems}
         loader={
-          <div className='flex bg-gray-100  items-center justify-center'>
+          <div className='flex bg-gray-100 items-center justify-center'>
             <DNA
               visible={true}
               height="80"
