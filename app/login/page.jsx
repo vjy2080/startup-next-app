@@ -20,10 +20,11 @@ const Login = () => {
             let users = await response.json();
             const isAlreadyUser = users.some(item => item.email === data.email);
             const confirmPassword = users.some(item => item.password === data.password);
+            const userId = users.find(item => item.email === data.email)
 
             if (isAlreadyUser && confirmPassword) {
                 setError('isAlreadyUser', { type: "custom", message: 'Login successfully.' });
-                login();
+                login(userId?.id);
                 setTimeout(() => {
                     push('/');
                     reset();

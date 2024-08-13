@@ -2,14 +2,14 @@
   "users": [
     {
       "id": "e374",
-      "name": "example",
+      "name": "example1234-update",
       "email": "example@abc.com",
       "password": "1234asdf",
       "confirmPassword": "1234asdf"
     },
     {
       "id": "94cb",
-      "name": "vijay",
+      "name": "Vijay Prajapati",
       "email": "vjy@abc.com",
       "password": "1234asdf",
       "confirmPassword": "1234asdf"
@@ -963,35 +963,34 @@
       ],
       "detail": "`Apache Spark is an open-source analytics engine designed for large-scale data processing. It provides high-speed data processing capabilities and supports a range of data analysis tasks, including batch processing, streaming, and machine learning. Spark's in-memory computing and optimized execution engine enable fast and efficient data processing, making it a popular choice for big data analytics and complex data workflows.`"
     },
-    
-      {
-        "id": 55,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nginx_logo.svg",
-        "title": "Nginx",
-        "description": "Nginx is a high-performance web server and reverse proxy server that also provides load balancing and HTTP caching capabilities.",
-        "tags": [
-          "Nginx",
-          "Web Server",
-          "Reverse Proxy",
-          "Load Balancing",
-          "Caching"
-        ],
-        "detail": "`Nginx is a powerful web server and reverse proxy server known for its high performance and scalability. It is widely used to serve static content, handle HTTP requests, and manage load balancing across multiple servers. Nginx also offers advanced features such as caching, SSL termination, and rate limiting, making it a popular choice for high-traffic websites and applications.`"
-      },
-      {
-        "id": 56,
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Next.js_logo.svg",
-        "title": "Next.js",
-        "description": "Next.js is a React framework that enables server-side rendering and static site generation. It provides an easy way to build optimized and performant React applications.",
-        "tags": [
-          "Next.js",
-          "React",
-          "Framework",
-          "Server-side Rendering",
-          "Static Site Generation"
-        ],
-        "detail": "`Next.js is a React framework that facilitates server-side rendering (SSR) and static site generation (SSG). It simplifies the development of optimized and high-performance React applications by providing built-in support for features such as routing, code splitting, and automatic static optimization. Next.js is known for its ease of use and ability to improve the performance and SEO of React applications.`"
-      }
+    {
+      "id": 55,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nginx_logo.svg",
+      "title": "Nginx",
+      "description": "Nginx is a high-performance web server and reverse proxy server that also provides load balancing and HTTP caching capabilities.",
+      "tags": [
+        "Nginx",
+        "Web Server",
+        "Reverse Proxy",
+        "Load Balancing",
+        "Caching"
+      ],
+      "detail": "`Nginx is a powerful web server and reverse proxy server known for its high performance and scalability. It is widely used to serve static content, handle HTTP requests, and manage load balancing across multiple servers. Nginx also offers advanced features such as caching, SSL termination, and rate limiting, making it a popular choice for high-traffic websites and applications.`"
+    },
+    {
+      "id": 56,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Next.js_logo.svg",
+      "title": "Next.js",
+      "description": "Next.js is a React framework that enables server-side rendering and static site generation. It provides an easy way to build optimized and performant React applications.",
+      "tags": [
+        "Next.js",
+        "React",
+        "Framework",
+        "Server-side Rendering",
+        "Static Site Generation"
+      ],
+      "detail": "`Next.js is a React framework that facilitates server-side rendering (SSR) and static site generation (SSG). It simplifies the development of optimized and high-performance React applications by providing built-in support for features such as routing, code splitting, and automatic static optimization. Next.js is known for its ease of use and ability to improve the performance and SEO of React applications.`"
+    }
   ],
   "AboutData": [
     {

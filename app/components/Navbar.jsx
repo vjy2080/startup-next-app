@@ -6,6 +6,7 @@ import DropdownMenuComponent from './DropdownMenuComponent/page';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import Logo from './Logo';
+import Profile from '../profile/page';
 
 
 const Navbar = () => {
@@ -53,9 +54,25 @@ const Navbar = () => {
                                 className="block py-2 px-3 text-emerald-50"
                             >About</Link>
                         </li>
+                        <li className='cursor-pointer'>
+                            <Link
+                                href="/blog"
+                                className="block py-2 px-3 text-emerald-50"
+                            >Bolgs</Link>
+                        </li>
                         <li>
                             <DropdownMenuComponent />
                         </li>
+                        {isAuthenticated && <li className='cursor-pointer flex items-center'>
+                            <Link
+                                href="/profile">
+                                <div
+                                    className='h-6 w-6'
+                                >
+                                    <img src="https://cdn-icons-png.flaticon.com/512/219/219970.png" alt="User" />
+                                </div>
+                            </Link>
+                        </li>}
                         <li className='cursor-pointer flex items-center'>
                             {
                                 !isAuthenticated ?

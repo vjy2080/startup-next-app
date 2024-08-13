@@ -11,7 +11,7 @@ const useAuth = () => {
         if (!login) {
             push('/login');
         }
-    }, [history]);
+    }, []);
 };
 
 export default useAuth;
