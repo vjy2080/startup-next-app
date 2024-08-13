@@ -60,7 +60,13 @@ const Home = () => {
       />
     </div>
   );
-
+  if (displayedItems.length < 1) return (
+    <div className='h-svh'>
+      <div className='h-full flex flex-col items-center justify-center text-3xl'>
+        <p className='my-2 text-center'>Search results: Nothing to show</p>
+      </div>
+    </div>
+  )
   return (
     <>
       <InfiniteScroll
