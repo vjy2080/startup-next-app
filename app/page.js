@@ -27,6 +27,26 @@ const Home = () => {
   });
 
   useEffect(() => {
+
+    const fetchData = async () => {
+      console.log('Useeffect-fetchData called');
+
+      const response = await fetch('/api/data', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      const data = await response.json();
+      console.log(data);
+    };
+
+    fetchData();
+  }, []);
+
+
+
+  useEffect(() => {
     setLoading(false);
   }, [searchQuery])
 
