@@ -2,8 +2,11 @@
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import AboutData from '../components/dataArray/AboutData';
+// import AboutData from '../components/dataArray/AboutData';
 import useAuth from '../components/useAuth';
+import { fetchAboutData } from '../components/query';
+import { useInfiniteQuery } from '@tanstack/react-query';
+import Loader from '../components/Loader';
 
 
 
@@ -12,6 +15,18 @@ const About = () => {
     useAuth();
     const [selectedId, setSelectedId] = useState(null);
 
+    const { data: AboutData, error, isLoading } = useInfiniteQuery({
+        queryKey: ['aboutData'],
+        queryFn: fetchAboutData,
+        getNextPageParam: (lastPage) => lastPage.nextPage ?? false,
+    });
+
+    if (error) {
+        return <div><p>Something went wronge.</p></div>
+    }
+    if (isLoading) {
+        return <Loader />
+    }
     return (
         <div className="bg-gray-100 min-h-screen py-6 px-4 sm:px-6 lg:px-8">
             <header className="max-w-4xl mx-auto  text-center">
@@ -20,7 +35,7 @@ const About = () => {
             </header>
             <div className="grid grid-cols-1 px-20 py-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 justify-center content-center">
 
-                {AboutData.map(item => (
+                {AboutData?.pages[0].flatMap(item => (
                     <motion.div
                         key={item.id}
                         layoutId={item.id}

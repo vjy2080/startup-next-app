@@ -12,31 +12,28 @@ const Signup = () => {
         setError
     } = useForm();
     const { push } = useRouter();
+
     const onSubmit = async (data) => {
         try {
-            let response = await fetch('http://localhost:5000/users');
-            let users = await response.json();
-            const isAlreadyUser = users.some(item => item.email === data.email);
-
-            if (isAlreadyUser) {
-                setError('isAlreadyUser', { type: "custom", message: 'User already exists!' });
+            const response = await fetch('/api/addUserData', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            if (!response.ok) {
+                if (response.status === 409) { // Conflict, user already exists
+                    setError('isAlreadyUser', { type: "custom", message: 'User already exists!' });
+                } else {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
                 return;
             }
-            const postResponse = await fetch('http://localhost:5000/users', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            });
-            if (!postResponse.ok) {
-                throw new Error(`HTTP error! Status: ${postResponse.status}`);
-            }
-            const userData = await postResponse.json();
+            // User successfully added
             reset();
-            setError('userAdded', { type: "custom", message: `Hello ${userData.name},Your account created successfully.` });
-
-            console.log('User added:', userData);
+            setError('userAdded', { type: "custom", message: `Hello ${data.name}, your account has been created successfully.` });
+            setTimeout(() => {
+                push('/login');
+            }, 2000);
         } catch (error) {
             console.error('Error:', error);
         }

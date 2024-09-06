@@ -7,6 +7,7 @@ import { useInfiniteQuery } from '@tanstack/react-query';
 import { DNA } from 'react-loader-spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useSearch } from '@/context/SearchContext';
+import Loader from './components/Loader';
 
 const Home = () => {
   useAuth();
@@ -27,35 +28,19 @@ const Home = () => {
   });
 
   useEffect(() => {
-
-    const fetchData = async () => {
-      console.log('Useeffect-fetchData called');
-
-      const response = await fetch('/api/data', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-      const data = await response.json();
-      console.log(data);
-    };
-
-    fetchData();
-  }, []);
-
-
-
-  useEffect(() => {
     setLoading(false);
   }, [searchQuery])
 
   useEffect(() => {
     if (data) {
-      const allItems = data.pages.flatMap((page) => page);
+      const allItems = data.pages[0].flatMap((page) => page);
       setTotalItemsLength(allItems.length);
       setDisplayedItems(allItems
-        .filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()))
+        .filter(item =>
+          item?.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          item?.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          item?.detail?.toLowerCase().includes(searchQuery.toLowerCase())
+        )
         .slice(0, currentPage * perPageItems)
       );
       setIsFetching(false);
@@ -68,18 +53,7 @@ const Home = () => {
   };
 
   if (error) return <div>Error: {error.message}</div>;
-  if (isFetching) return (
-    <div className='flex items-center justify-center min-h-screen'>
-      <DNA
-        visible={true}
-        height="120"
-        width="120"
-        ariaLabel="dna-loading"
-        wrapperStyle={{}}
-        wrapperClass="dna-wrapper"
-      />
-    </div>
-  );
+  if (isFetching) return <Loader />
   if (displayedItems.length < 1) return (
     <div className='h-svh'>
       <div className='h-full flex flex-col items-center justify-center text-3xl'>

@@ -14,28 +14,35 @@ const Login = () => {
     } = useForm();
     const { push } = useRouter();
     const { login } = useAuth();
+
     const onSubmit = async (data) => {
         try {
-            let response = await fetch('http://localhost:5000/users');
-            let users = await response.json();
-            const isAlreadyUser = users.some(item => item.email === data.email);
-            const confirmPassword = users.some(item => item.password === data.password);
-            const userId = users.find(item => item.email === data.email)
+            const response = await fetch(`/api/getUserData?email=${encodeURIComponent(data.email)}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
 
-            if (isAlreadyUser && confirmPassword) {
-                setError('isAlreadyUser', { type: "custom", message: 'Login successfully.' });
-                login(userId?.id);
+            const user = await response.json();
+            console.log('user', user);
+
+            if (user && user.password === data.password) {
+                setError('isAlreadyUser', { type: 'custom', message: 'Login successfully.' });
+                login(user._id); // Assuming MongoDB's ObjectId is used for the ID
                 setTimeout(() => {
                     push('/');
                     reset();
-                }, 3000);
+                }, 2000);
             } else {
-                setError('loginFailed', { type: "custom", message: 'Login failed try again...' });
+                setError('loginFailed', { type: 'custom', message: 'Login failed, try again...' });
             }
         } catch (error) {
             console.error('Error:', error);
         }
     };
+
+
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="bg-grey-dark  min-h-screen flex flex-col">
